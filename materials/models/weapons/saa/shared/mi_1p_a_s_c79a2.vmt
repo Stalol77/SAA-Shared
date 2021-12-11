@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture"				"models\weapons\saa\Shared\C79A2"
+	"$bumpmap"					"models\weapons\saa\Shared\T_1P_A_S_C79_n"
+	"$phongexponenttexture"		"models\weapons\saa\Shared\T_1P_A_S_C79_e"
+	"$color2"					"[0.75 0.75 0.75]"
+	
+	$envmap						env_cubemap
+	$envmaptint					"[ .02 .02 .02 ]"
+	$normalmapalphaenvmapmask	"1"	
+	
+	$phong						1
+	$phongexponent				10
+	$phongboost					3
+	$phongfresnelranges			"[0.25 0.5 1]"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"	
+	"$rimlightboost"			".2"
+	"$rimmask"					"1"
+}

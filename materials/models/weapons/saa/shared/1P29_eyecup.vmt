@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\weapons\saa\shared\1P29_eyecup_d"
+	"$bumpmap"					"models\weapons\saa\shared\1P29_eyecup_n"
+	"$phongexponenttexture"		"models\weapons\saa\shared\1P29_eyecup_e"
+	"$color2"					"[0.5 0.5 0.5]"
+
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"[ .13 .13 .13 ]"
+
+	"$phong"					"1"
+	"$phongboost"				"75"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint" 			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"33"
+	"$rimlightboost"			"2"
+	"$rimmask"					"1"
+}
+//Material setup by ShadowRUN 幸運な. 
+//You are NOT allowed to edit/modify/redistribute these materials without my explicit permission.
