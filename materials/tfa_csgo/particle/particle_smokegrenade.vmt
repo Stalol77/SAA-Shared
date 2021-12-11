@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesVertexColorAlphaBlend
+	"$basetexture" "tfa_csgo/particle/particle_smokegrenade"
+	"$color2"		"[15 15 15]"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+	"$no_fullbright" 1	
+}
