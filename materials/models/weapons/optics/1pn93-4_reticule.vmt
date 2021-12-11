@@ -1,0 +1,24 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models\weapons\optics\1pn93-reticule_off"
+	"$translucent"	"1"
+\\	"$detail"		"models\weapons\tfa_ins2\optics\laser_noise"
+\\	"$detailblendmode" "2"
+\\	"$detailframe"	"0"
+\\	"$translucent" 	"1"
+\\	"$additive"	"0"
+\\
+\\	$color "[255 255 255]"
+\\	$color2 "[50 200 0]"
+\\
+\\	Proxies
+\\	{
+\\		TextureScroll
+\\		{
+\\			textureScrollVar	$detailtexturetransform
+\\			textureScrollRate	50
+\\			textureScrollAngle 	180
+\\		}
+\\	}
+}

@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\weapons\optics\OKP-7_lense_d"
+	"$bumpmap"					"models\weapons\optics\OKP-7_lense_n"
+	"$color"					"[.25 .25 .25]"
+	"$translucent"				"1"
+	"$model"					"1"
+	
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"[5.0 5.0 10.0]"
+	"$envmapcontrast"			"2.5"
+	"$envmapsaturation"			"0.2"
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong"					"1"
+	"$phongexponent"			"255"
+	"$phongboost"				"10"
+	"$phongfresnelranges"		"[0.25 0.5 1]"
+	"$phongtint"				"[0.7 0.5 0.5]"
+	
+	$rimlight					"1"
+	$rimlightexponent			"95"
+	$rimlightboost				"1"
+	
+	
+	"Proxies"
+	{
+		"IronsightVectorResult"
+		{
+			"resultVar"		"$envmaptint"
+			"ResultDefault"	"5.0 5.0 10.0"
+			"ResultZoomed"	"1.0 1.0 2.0"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models\weapons\optics\1pn93-reticule_off"
+	"$translucent" 	"1"
+}

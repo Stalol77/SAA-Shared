@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture"				"models\weapons\optics\PK-AS_Reticle"
+	"$detailblendmode"			"2"
+	"$detailframe"				"0"
+	"$translucent"				"1"
+	"$additive"					"1"
+
+	$color2						"[255 1 1]"
+
+}

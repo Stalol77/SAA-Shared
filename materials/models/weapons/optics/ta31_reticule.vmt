@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"				"models\weapons\optics\ta31_reticule"
+	"$translucent"				"1"
+	"$additive"					"1"
+
+}

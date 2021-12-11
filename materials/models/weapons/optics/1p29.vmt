@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\weapons\optics\scope_dovetail_npz_1p29_4x_marks"
+	"$translucent" "1"
+}

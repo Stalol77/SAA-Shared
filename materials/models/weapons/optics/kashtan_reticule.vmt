@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\weapons\optics\1p78_sight"
+	"$translucent" "1"
+}
