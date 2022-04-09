@@ -15,9 +15,10 @@ matproxy.Add(
 		if IsValid(ent) then
 			local mv = self.MultVar
             local lightvec = render.GetLightColor(ent:GetPos())
+			local average = (lightvec[1]+lightvec[2]+lightvec[3])/3
 			local coeff = mv and mat:GetVector(mv) or basevec
 
-			rgbvec = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * (math.average(lightvec[1],lightvec[2],lightvec[3])))
+			rgbvec = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * average)
 		end
 	mat:SetVector(self.ResultVar, rgbvec)
 	end
