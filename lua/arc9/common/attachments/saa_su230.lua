@@ -1,8 +1,6 @@
 ATT.PrintName = "Elcan SU230 Specter"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Battle scope manufactured for multiple distances. Variable Magnification with top up ironsights.
 ]]
 
 ATT.SortOrder = 4
@@ -35,8 +33,8 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 7.5
-ATT.RTScopeFOVMax = 5
-ATT.RTScopeFOVMin = 11
+ATT.RTScopeFOVMax = 14/4.3
+ATT.RTScopeFOVMin = 14/2.1
 ATT.RTScopeAdjustmentLevels = 5
 ATT.RTScopeAdjustable = true
 

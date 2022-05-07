@@ -1,8 +1,6 @@
 ATT.PrintName = "1PN93-4"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Night Vision Soviet scope manufactured for AK type Dovetail Plates. Non-variable x4 Magnification.
 ]]
 
 ATT.SortOrder = 4

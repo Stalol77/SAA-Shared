@@ -1,8 +1,6 @@
 ATT.PrintName = "Elcan C79A1"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Battle scope manufactured for multiple distances. Non-variable x3.7 Magnification with top up ironsights.
 ]]
 
 ATT.SortOrder = 4
@@ -34,11 +32,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 9.5
-ATT.RTScopeFOVMax = 5
-ATT.RTScopeFOVMin = 12
-ATT.RTScopeAdjustmentLevels = 5
-ATT.RTScopeAdjustable = true
+ATT.RTScopeFOV = 14/3.7
 
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")

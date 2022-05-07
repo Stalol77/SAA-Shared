@@ -1,8 +1,6 @@
 ATT.PrintName = "PSO-1"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Soviet scope manufactured for SVD type Dovetail Plates. Non-variable x4 Magnification with Hit Dampening Eyecup. 
 ]]
 
 ATT.SortOrder = 4
@@ -29,7 +27,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 9.5
 ATT.RTScopeRes = 512
-ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
+ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamburger")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/pso_reticule.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.2
 ATT.RTScopeShadowIntensity = 2

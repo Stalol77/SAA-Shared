@@ -1,8 +1,6 @@
 ATT.PrintName = "1P29"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Soviet scope manufactured for AK type Dovetail Plates. Non-variable x4 Magnification. 
 ]]
 
 ATT.SortOrder = 4
@@ -15,6 +13,8 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_1p29.mdl"
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-0.9, 1.15, 2.35)
+
+ATT.VisualRecoilADSMult = 0.8
 
 ATT.Sights = {
     {

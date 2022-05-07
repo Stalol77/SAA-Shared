@@ -1,8 +1,7 @@
 ATT.PrintName = "Trijicon TA-31"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
+Battle scope manufactured for multiple distances. Non-variable x3.1 Magnification.
 
-    Belongs to Black Ops II.
 ]]
 
 ATT.SortOrder = 4
@@ -27,11 +26,8 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 9.5
-ATT.RTScopeFOVMax = 5
-ATT.RTScopeFOVMin = 12
-ATT.RTScopeAdjustmentLevels = 5
-ATT.RTScopeAdjustable = true
+ATT.RTScopeFOV = 14/3.1
+
 
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")

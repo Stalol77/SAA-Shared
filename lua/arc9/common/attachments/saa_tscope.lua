@@ -1,8 +1,6 @@
 ATT.PrintName = "V8X Tac-Point"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Commercial scope mainly intended for long range engagements. Variable Magnification with Hit Dampening Eyecup.
 ]]
 
 ATT.SortOrder = 4
@@ -10,7 +8,7 @@ ATT.Free = false
 ATT.Folder = "SCOPE"
 
 ATT.SwayMult = 1.3
-ATT.VisualRecoilADSMult = 1.2
+ATT.VisualRecoilADSMult = 0.8
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 
@@ -31,8 +29,8 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 0
 ATT.RTScopeFOV = 9.5
-ATT.RTScopeFOVMax = 3.5
-ATT.RTScopeFOVMin = 9
+ATT.RTScopeFOVMax = 14/8
+ATT.RTScopeFOVMin = 14/3.5
 ATT.RTScopeAdjustmentLevels = 5
 ATT.RTScopeAdjustable = true
 
