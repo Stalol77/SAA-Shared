@@ -1,38 +1,35 @@
 ATT.PrintName = "POSP 4x24 1-M2"
 ATT.Description = [[
-    Medium range combat scope for improved precision at longer ranges. Combined with a no maginification red dot sight on top.
-
-    Belongs to Black Ops II.
+Soviet scope manufactured for SVD type Dovetail Plates. Non-variable x4 Magnification with Hit Dampening Eyecup. 
 ]]
 
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
 
-ATT.Category = {"SAA_SVD_DOVETAIL", "SAA_AK_DOVETAIL"}
+ATT.Category = {"SAA_SVD_DOVETAIL"}
 
 
 ATT.Model = "models/saa/upgrades/arc9/a_optic_posp-4x24m.mdl"
-ATT.Scale = 1.4
-ATT.ModelOffset = Vector(-1.3, 0.25, 1.4)
+ATT.Scale = 1.45
+ATT.ModelOffset = Vector(0, 0.4, 1.55)
 ATT.ActivePosAdd = Vector(0, 0, -5)
 
 ATT.Sights = {
     {
-        Pos = Vector(0.3, 10, -1.05),
+        Pos = Vector(0, 11, -1.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true
     },
 }
 
-
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 9.5
+ATT.RTScopeFOV = 14/4
 ATT.RTScopeRes = 512
-ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
-ATT.RTScopeReticle = Material("models/weapons/optics/pso1m21")
-ATT.RTScopeReticleScale = 2.5
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamburger")
+ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/pso1m21_reticule.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.2
+ATT.RTScopeShadowIntensity = 30
 ATT.RTScopeNoPP = false

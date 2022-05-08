@@ -30,5 +30,5 @@ ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamburger")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/pso_reticule.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.2
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeShadowIntensity = 50
 ATT.RTScopeNoPP = false
