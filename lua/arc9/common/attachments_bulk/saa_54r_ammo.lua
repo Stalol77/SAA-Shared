@@ -57,6 +57,7 @@ ATT.PenetrationMult = 71/59
 ATT.ArmorPiercingMult = 88/87
 ATT.RicochetChanceMult = 32.16/26.5
 ATT.DamageMinMult = 83/78
+ATT.RPMMult = 650/632
 ATT.RangeMinMult = 340/150
 ATT.RecoilMult = 1.225
 ATT.PhysBulletMuzzleVelocityMult = 990/815
@@ -82,7 +83,7 @@ ATT.RangeMaxMult = 110/350
 ATT.RPMMult = 490/610
 ATT.DamageMaxMult = 73/102
 ATT.PenetrationMult = 39/59
-ATT.PhysBulletMuzzleVelocityMult = 815/343
+ATT.PhysBulletMuzzleVelocityMult = 343/815
 ATT.RecoilMult = 0.965
 
 
