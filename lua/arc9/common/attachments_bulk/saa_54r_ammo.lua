@@ -15,7 +15,8 @@ ATT.Category = {"saa_54r_ammo"}
 ATT.PenetrationMult = 70/59
 ATT.ArmorPiercingMult = 88/84
 ATT.RicochetChanceMult = 39/26.5
-ATT.DamageMult = 72/78
+ATT.DamageMaxMult = 72/78
+ATT.DamageMinMult = 67/78
 
 
 ARC9.LoadAttachment(ATT, "saa_54r_ap")
