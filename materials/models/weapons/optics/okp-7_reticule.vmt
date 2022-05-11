@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"				"models\weapons\optics\OKP-7_Reticule"
-	"$detail"					"models\weapons\tfa_ins2\optics\laser_noise"
+	"$detail"					"models\weapons\optics\laser_noise"
 	"$detailblendmode"			"2"
 	"$detailframe"				"0"
 	"$translucent"				"1"
