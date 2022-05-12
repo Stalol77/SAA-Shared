@@ -9,7 +9,7 @@
 	"$model"					"1"
 	"$additive"					"1"
 
-	$color2						"[255 50 0]"
+	$color2						"[255 2 0]"
 
 	Proxies
 	{
