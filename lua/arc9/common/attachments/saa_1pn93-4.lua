@@ -13,7 +13,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_1pn93-4.mdl"
 ATT.Scale = 1.4
 ATT.ModelOffset = Vector(-1.5, 0.35, 1.7)
-
+ATT.ExcludeElements = {"nodovetailoptics"}
 ATT.Sights = {
     {
         Pos = Vector(0, 8, -1.85),
