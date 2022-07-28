@@ -18,7 +18,7 @@ ATT.VisualRecoilADSMult = 0.8
 
 ATT.Sights = {
     {
-        Pos = Vector(0.34, 8, -1),
+        Pos = Vector(0.34, 7, -1),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true
@@ -27,8 +27,8 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 5.5
-ATT.RTScopeRes = 512
+ATT.RTScopeFOV = 22/4
+ATT.RTScopeRes = 256
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
 ATT.RTScopeReticle = Material("models/weapons/optics/1p29")
 ATT.RTScopeReticleScale = 1.5

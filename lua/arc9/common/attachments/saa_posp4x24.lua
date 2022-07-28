@@ -26,7 +26,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 14/4
+ATT.RTScopeFOV = 22/4
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamburger")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/pso1m21_reticule.png", "mips smooth")

@@ -1,7 +1,8 @@
 "UnlitGeneric"
 {
 	"$basetexture"				"models\weapons\optics\PK-AS_Reticle"
-	"$detailblendmode"			"2"
+	"$basetexturetransform" "center .5 .5 scale 1.2 1.2 rotate 0 translate 0 0"
+	"$detailblendmode"			"4"
 	"$detailframe"				"0"
 	"$translucent"				"1"
 	"$additive"					"1"

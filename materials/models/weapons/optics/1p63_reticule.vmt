@@ -1,5 +1,24 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"models\weapons\optics\p63_reticule"
+	"$basetexture"	"models\weapons\optics\1p63_reticule"
 	"$translucent" "1"
+	"$detail"					"models\weapons\optics\laser_noise"
+	"$basetexturetransform" "center .5 .5 scale 1.5 1.5 rotate 0 translate 0 0"
+	"$detailblendmode"			"4"
+	"$detailframe"				"0"
+	"$translucent"				"1"
+	"$model"					"1"
+	"$additive"					"1"
+
+	$color2						"[2 255 0]"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			textureScrollVar	$detailtexturetransform
+			textureScrollRate	50
+			textureScrollAngle 	180
+		}
+	}
 }

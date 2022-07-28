@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\weapons\optics\scope_base_kmz_1p59_3_10x_mark_10x"
+	"$basetexturetransform" "center .5 .5 scale 1.55 1.55 rotate 0 translate 0 0"
+	"$translucent" "1"
+}

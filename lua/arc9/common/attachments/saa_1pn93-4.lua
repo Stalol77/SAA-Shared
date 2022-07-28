@@ -1,6 +1,6 @@
 ATT.PrintName = "1PN93-4"
 ATT.Description = [[
-Night Vision Soviet scope manufactured for AK type Dovetail Plates. Non-variable x4 Magnification.
+Togglable Night Vision Soviet scope manufactured for AK type Dovetail Plates. Non-variable x3.7 Magnification.
 ]]
 
 ATT.SortOrder = 4
@@ -16,16 +16,28 @@ ATT.ModelOffset = Vector(-1.5, 0.35, 1.7)
 ATT.ExcludeElements = {"nodovetailoptics"}
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -1.85),
+        Pos = Vector(0, 7, -1.85),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        IgnoreExtra = true
+        IgnoreExtra = true,
+        ExtraSightData = {
+            RTScopeNightVision = true,
+        },
+    },
+    {
+        Pos = Vector(0, 7, -1.85),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1,
+        IgnoreExtra = true,
+        ExtraSightData = {
+            RTScopeNightVision = false,
+        },
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 5
-ATT.RTScopeFOV = 5.5
+ATT.RTScopeFOV = 22/3.7
 ATT.RTScopeRes = 512
 
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")

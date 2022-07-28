@@ -16,7 +16,7 @@ ATT.ModelOffset = Vector(0.1, 0.15, -0.2)
 ATT.Scale = 1.2
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.5),
+        Pos = Vector(0, 4.5, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true
@@ -32,7 +32,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 14/3.7
+ATT.RTScopeFOV = 22/3.7
 
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")

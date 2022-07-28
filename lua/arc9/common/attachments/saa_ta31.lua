@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon TA-31"
 ATT.Description = [[
-Battle scope manufactured for multiple distances. Non-variable x3.1 Magnification.
+Battle scope manufactured for multiple distances. Non-variable x2.8 Magnification.
 
 ]]
 
@@ -17,7 +17,7 @@ ATT.ModelOffset = Vector(0.1, 0.15, -0.2)
 ATT.Scale = 1.2
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.5),
+        Pos = Vector(0, 5, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true
@@ -26,7 +26,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 14/3.1
+ATT.RTScopeFOV = 22/2.8
 
 
 ATT.RTScopeRes = 512

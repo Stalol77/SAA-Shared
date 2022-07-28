@@ -19,7 +19,7 @@ ATT.ModelOffset = Vector(0.1, 0.15, -0.2)
 ATT.Scale = 1.2
 ATT.Sights = {
     {
-        Pos = Vector(0, 12, -1.35),
+        Pos = Vector(0, 10, -1.35),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
     },
@@ -28,8 +28,8 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 0
 ATT.RTScopeFOV = 9.5
-ATT.RTScopeFOVMax = 14/8
-ATT.RTScopeFOVMin = 14/3.5
+ATT.RTScopeFOVMax = 22/8
+ATT.RTScopeFOVMin = 22/3.5
 ATT.RTScopeAdjustmentLevels = 5
 ATT.RTScopeAdjustable = true
 
