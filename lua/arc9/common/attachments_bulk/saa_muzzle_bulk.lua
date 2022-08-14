@@ -153,7 +153,7 @@ ATT = {}
 ATT.PrintName = "YHM Resonator K"
 ATT.CompactName = "Res K"
 ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
-ATT.Description = [[Bulky .308 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.Description = [[Sleek .308 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
 ATT.Model = "models/saa/upgrades/a_suppressor_socom.mdl"
@@ -173,7 +173,7 @@ ATT.AimDownSightsTimeMult = 1.04
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.ShootVolumeMult = 90/120
+ATT.ShootVolumeMult = 100/120
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
@@ -181,4 +181,74 @@ ATT.MuzzleDevice = false
 ATT.RecoilUpMult = 1.1
 ATT.RecoilRandomMult = 0.9
 
-ARC9.LoadAttachment(ATT, "saa_muz_pbs1")
+ARC9.LoadAttachment(ATT, "saa_muz_resk")
+
+ATT = {}
+
+ATT.PrintName = "Cloth Wrapped Salvo"
+ATT.CompactName = "Salvo"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Bulky 7.62 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_clothwrapped.mdl"
+
+ATT.Category = {"suppressor","saa_308_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.1
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.08
+ATT.SprintToFireTimeMult = 1.09
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 90/120
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.15
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_clothsup")
+
+ATT = {}
+
+ATT.PrintName = "Magnek Tacforce"
+ATT.CompactName = "Magnek"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Bulky 7.62 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_black45s.mdl"
+
+ATT.Category = {"suppressor","saa_308_muz", "saa_54r_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 2.7
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 95.5/120
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.12
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_magnek")
