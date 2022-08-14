@@ -10,7 +10,7 @@ ATT.ExcludeElements = {"nodovetailoptics"}
 ATT.Attachments = {
     {
         PrintName = "OPTIC",
-        Category = {"SAA_SCOPE_MEDIUM", "SAA_SCOPE_SMALL"}, // single or {"list", "of", "values"}
+        Category = {"SAA_SCOPE_MEDIUM", "SAA_SCOPE_LARGE", "SAA_SCOPE_SMALL"}, // single or {"list", "of", "values"}
         Pos = Vector(-2, 1, -3),
 
         InstalledElements = {"nodustcoveroptics"},

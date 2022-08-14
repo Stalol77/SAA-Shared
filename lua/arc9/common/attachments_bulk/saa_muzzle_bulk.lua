@@ -60,14 +60,14 @@ ARC9.LoadAttachment(ATT, "saa_muz_dtk1")
 
 ATT = {}
 
-ATT.PrintName = "AWS Tanker M43 Compensator"
+ATT.PrintName = "AWS Tanker Compensator"
 ATT.CompactName = "AWS Tanker"
 ATT.Icon = nil
 ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
-ATT.Category = {"muzzle","saa_m43_muz"}
+ATT.Category = {"muzzle","saa_m43_muz", "saa_308_muz"}
 ATT.SortOrder = 1
 
-ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_m14"
 ATT.Model = "models/saa/upgrades/muzzle/54r_compensator.mdl"
 ATT.Scale = 1.1
 ATT.ModelOffset = Vector(0, -0.2, 0)
@@ -131,7 +131,7 @@ ATT.PrintName = "Deuter Muzzle Booster"
 ATT.CompactName = "Deuter"
 ATT.Icon = nil
 ATT.Description = [[Bell shaped muzzle device that aids the gas recovery system, increasing rate of fire.]]
-ATT.Category = {"muzzle","saa_m43_muz"}
+ATT.Category = {"muzzle","saa_m43_muz", "saa_308_muz"}
 ATT.SortOrder = 1
 
 ATT.MuzzleParticleOverride = "muzzleflash_1"
@@ -147,3 +147,38 @@ ATT.ShootVolumeMult = 133/126.5
 
 
 ARC9.LoadAttachment(ATT, "saa_muz_deuterbooster")
+
+ATT = {}
+
+ATT.PrintName = "YHM Resonator K"
+ATT.CompactName = "Res K"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Bulky .308 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_socom.mdl"
+
+ATT.Category = {"suppressor","saa_308_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.1
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 890/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.04
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 90/120
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.1
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_pbs1")

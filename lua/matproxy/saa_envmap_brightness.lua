@@ -19,8 +19,13 @@ matproxy.Add(
 			local coeff = mv and mat:GetVector(mv) or basevec
 
 			rgbvec = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * average)
+			rgbvechdr = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * average)
 		end
-	mat:SetVector(self.ResultVar, rgbvec)
+	if render.GetHDREnabled(true) then
+	mat:SetVector((self.ResultVar),  rgbvechdr*.07)
+	else
+	mat:SetVector((self.ResultVar),  rgbvec)
+	end
 	end
 	}
 )
@@ -43,8 +48,13 @@ matproxy.Add(
 			local coeff = mv and mat:GetVector(mv) or basevec
 
 			rgbvec = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * lightvec)
+			rgbvechdr = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * lightvec)
 		end
+	if render.GetHDREnabled(true) then
+	mat:SetVector((self.ResultVar),  rgbvechdr*.07)
+	else
 	mat:SetVector((self.ResultVar),  rgbvec)
+	end
 	end
 	}
 )

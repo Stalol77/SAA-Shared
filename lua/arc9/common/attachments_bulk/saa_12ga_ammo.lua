@@ -133,6 +133,7 @@ ATT.ArmorPiercingMult = 3.5
 ATT.PhysBulletMuzzleVelocityMult = 612/350
 ATT.PenetrationMult = 6.5
 ATT.SpreadMult = 0.95
+ATT.ImpactEffectOverride = "TeslaZap"
 
 ARC9.LoadAttachment(ATT, "saa_12ga_lavrov")
 
@@ -163,3 +164,25 @@ ATT.ClipSizeMult = 1/2
 ATT.ActivateElements = {"50bmg"}
 
 ARC9.LoadAttachment(ATT, "saa_12ga_50bmg")
+
+ATT = {}
+
+ATT.PrintName = [[12 Gauge Dragon's Breath]]
+ATT.CompactName = [[Dragon's Breath]]
+ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Description = [[
+12 Gauge Buckshot round containing 14 pellets per ounce.
+]]
+ATT.SortOrder = 2
+
+ATT.Category = {"saa_12ga_special"}
+ATT.NumOverride = 14
+ATT.DamageMaxMult = 6/14
+att.Override_DamageType = DMG_BURN + DMG_BUCKSHOT + DMG_SHOCK
+ATT.PhysBulletMuzzleVelocityMult = 90/70
+ATT.PenetrationMult = 0.6
+ATT.MuzzleParticleOverride = "muzzleflash_dragonbreath"
+ATT.ImpactEffectOverride = "StunstickImpact"
+
+
+ARC9.LoadAttachment(ATT, "saa_12ga_dragon")
