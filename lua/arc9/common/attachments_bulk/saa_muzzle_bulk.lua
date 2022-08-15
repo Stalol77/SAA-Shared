@@ -26,7 +26,7 @@ ATT.AimDownSightsTimeMult = 1.04
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.ShootVolumeMult = 90/120
+ATT.ShootVolumeMult = 97/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
@@ -173,7 +173,7 @@ ATT.AimDownSightsTimeMult = 1.04
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.ShootVolumeMult = 100/120
+ATT.ShootVolumeMult = 100/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
@@ -208,7 +208,7 @@ ATT.AimDownSightsTimeMult = 1.08
 ATT.SprintToFireTimeMult = 1.09
 
 ATT.Silencer = true
-ATT.ShootVolumeMult = 90/120
+ATT.ShootVolumeMult = 90/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
@@ -243,7 +243,7 @@ ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.ShootVolumeMult = 95.5/120
+ATT.ShootVolumeMult = 95.5/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
