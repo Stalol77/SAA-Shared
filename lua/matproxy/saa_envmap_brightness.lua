@@ -22,7 +22,7 @@ matproxy.Add(
 			rgbvechdr = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * average)
 		end
 	if render.GetHDREnabled(true) then
-	mat:SetVector((self.ResultVar),  rgbvechdr*.07)
+	mat:SetVector((self.ResultVar),  rgbvechdr*.25)
 	else
 	mat:SetVector((self.ResultVar),  rgbvec)
 	end
@@ -51,7 +51,7 @@ matproxy.Add(
 			rgbvechdr = Lerp(RealFrameTime() * 10, mat:GetVector(self.ResultVar), coeff * lightvec)
 		end
 	if render.GetHDREnabled(true) then
-	mat:SetVector((self.ResultVar),  rgbvechdr*.07)
+	mat:SetVector((self.ResultVar),  rgbvechdr*.25)
 	else
 	mat:SetVector((self.ResultVar),  rgbvec)
 	end
