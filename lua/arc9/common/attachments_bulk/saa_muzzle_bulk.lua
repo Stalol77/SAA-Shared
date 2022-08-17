@@ -83,11 +83,11 @@ ARC9.LoadAttachment(ATT, "saa_muz_m43tanker")
 
 ATT = {}
 
-ATT.PrintName = "AKM Bell Flash Hider"
+ATT.PrintName =  "Bell Flash Hider"
 ATT.CompactName = "Bell"
 ATT.Icon = nil
-ATT.Description = [[Rudimental bell shaped flash hider intended for M43 usage. Reduces muzzle flash while deeply heavening the barrel.]]
-ATT.Category = {"muzzle","saa_m43_muz"}
+ATT.Description = [[Rudimental bell shaped flash hider intended for 7.62 Soviet Barrels. Reduces muzzle flash while deeply heavening the barrel.]]
+ATT.Category = {"muzzle","saa_m43_muz", "saa_54r_muz"}
 ATT.SortOrder = 1
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -193,7 +193,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/saa/upgrades/a_suppressor_clothwrapped.mdl"
 
-ATT.Category = {"suppressor","saa_308_muz"}
+ATT.Category = {"suppressor","saa_308_muz", "saa_54r_muz"}
 ATT.Folder = "SUPP"
 
 ATT.Scale = 1.1
