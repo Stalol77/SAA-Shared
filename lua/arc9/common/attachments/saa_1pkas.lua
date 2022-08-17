@@ -7,7 +7,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
 
-ATT.Category = {"SAA_AK_DOVETAIL", "optic_dovetail"}
+ATT.Category = {"SAA_AK_DOVETAIL", "SAA_SVD_DOVETAIL", "optic_dovetail"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_pkas.mdl"

@@ -7,7 +7,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
 
-ATT.Category = {"SAA_AK_DOVETAIL", "SAA_RPG7_DOVETIAL", "optic_dovetail"}
+ATT.Category = {"SAA_AK_DOVETAIL", "SAA_SVD_DOVETAIL", "SAA_RPG7_DOVETIAL", "optic_dovetail"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_pgo7.mdl"
@@ -27,7 +27,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 22/4
+ATT.RTScopeFOV = 22/2.8
 ATT.RTScopeRes = 256
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
 ATT.RTScopeReticle = Material("models/weapons/optics/1p29")
