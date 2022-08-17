@@ -64,7 +64,7 @@ ATT.PrintName = "AWS Tanker Compensator"
 ATT.CompactName = "AWS Tanker"
 ATT.Icon = nil
 ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
-ATT.Category = {"muzzle","saa_m43_muz", "saa_308_muz"}
+ATT.Category = {"muzzle","saa_m43_muz", "saa_54r_muz", "saa_308_muz"}
 ATT.SortOrder = 1
 
 ATT.MuzzleParticleOverride = "muzzleflash_m14"
