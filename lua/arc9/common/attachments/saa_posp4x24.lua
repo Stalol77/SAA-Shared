@@ -14,6 +14,9 @@ ATT.Model = "models/saa/upgrades/arc9/a_optic_posp-4x24m.mdl"
 ATT.Scale = 1.45
 ATT.ModelOffset = Vector(0, 0.4, 1.55)
 ATT.ActivePosAdd = Vector(0, 0, -5)
+ATT.VisualRecoilMultSights = 0.8
+ATT.SwayMultSights = 0.6
+
 
 ATT.Sights = {
     {
