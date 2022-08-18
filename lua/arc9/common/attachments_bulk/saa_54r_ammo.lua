@@ -87,6 +87,46 @@ ATT.PenetrationMult = 39/59
 ATT.PhysBulletMuzzleVelocityMult = 343/815
 ATT.RecoilMult = 0.965
 
-
-
 ARC9.LoadAttachment(ATT, "saa_54r_sub")
+
+ATT = {}
+
+ATT.PrintName = [[7.62VP K57 Tracer]]
+ATT.CompactName = [[7.62 K57 TR]]
+ATT.Icon = Material("hud/arc9_saa/icons/54r_tr.png", "mips smooth")
+ATT.Description = [[
+Post-WW2 Tracer variant of the 7.62VP (7.62x54mmR) cartridge.
+]]
+ATT.SortOrder = 1
+
+ATT.Category = {"saa_54r_ammo"}
+
+ATT.PhysBulletMuzzleVelocityMult = 833/840
+ATT.TracerNumOverride = 2
+ATT.TracerColorOverride = Color(100, 255, 0)
+
+ARC9.LoadAttachment(ATT, "saa_54r_k57")
+
+ATT = {}
+
+ATT.PrintName = [[7.62VP OP90 Tracer]]
+ATT.CompactName = [[7.62 OP90 TR]]
+ATT.Icon = Material("hud/arc9_saa/icons/54r_sub_tr.png", "mips smooth")
+ATT.Description = [[
+Special-Purpose Subsonic Tracer variant of the 7.62VP (7.62x54mmR) cartridge.
+]]
+ATT.SortOrder = 1
+
+ATT.Category = {"saa_54r_ammo"}
+
+ATT.ShootVolumeOverride = 100
+ATT.RangeMaxMult = 110/350
+ATT.RPMMult = 490/610
+ATT.DamageMaxMult = 73/102
+ATT.PenetrationMult = 39/59
+ATT.PhysBulletMuzzleVelocityMult = 343/815
+ATT.RecoilMult = 0.965
+ATT.TracerNumOverride = 2
+ATT.TracerColorOverride = Color(100, 255, 0)
+
+ARC9.LoadAttachment(ATT, "saa_54r_op90")

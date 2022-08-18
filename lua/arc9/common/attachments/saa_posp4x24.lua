@@ -8,14 +8,16 @@ ATT.Free = false
 ATT.Folder = "SCOPE"
 
 ATT.Category = {"SAA_SVD_DOVETAIL"}
-
+ATT.Pros = {
+    [[Retains use of base ironsights.]],
+[[Press ALT+E to cycle between the sights.]]}
 
 ATT.Model = "models/saa/upgrades/arc9/a_optic_posp-4x24m.mdl"
 ATT.Scale = 1.45
 ATT.ModelOffset = Vector(0, 0.4, 1.55)
 ATT.ActivePosAdd = Vector(0, 0, -5)
 ATT.VisualRecoilMultSights = 0.8
-ATT.SwayMultSights = 0.6
+ATT.SwayMultSights = 0.85
 
 
 ATT.Sights = {
@@ -26,6 +28,13 @@ ATT.Sights = {
         IgnoreExtra = true
     },
 }
+
+ATT.IronSightsOverride = {
+    Pos = Vector(-2.025, 0, 0.55),
+    Ang = Angle(0, -0.15, 0),
+}
+
+ATT.KeepBaseIrons = true
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1

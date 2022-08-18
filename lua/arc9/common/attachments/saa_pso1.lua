@@ -13,7 +13,7 @@ ATT.Category = {"SAA_SVD_DOVETAIL"}
 ATT.Model = "models/saa/upgrades/a_optic_pso-1.mdl"
 ATT.Scale = 1.3
 ATT.ModelOffset = Vector(0, 1.25, 2.2)
-ATT.SwayMultSights = 0.75
+ATT.SwayMultSights = 0.7
 
 ATT.Sights = {
     {
@@ -23,6 +23,10 @@ ATT.Sights = {
         IgnoreExtra = true
     },
 }
+
+
+ATT.KeepBaseIrons = false
+
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1

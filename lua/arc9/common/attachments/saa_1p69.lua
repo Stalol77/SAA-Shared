@@ -8,6 +8,10 @@ ATT.Free = false
 ATT.Folder = "SCOPE"
 
 ATT.Category = {"optic_dovetail", "SAA_SVD_DOVETAIL"}
+ATT.Pros = {
+    [[Retains use of base ironsights.]],
+[[Press ALT+E to cycle between the sights.]]
+}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_1p69_dovetail.mdl"
@@ -26,6 +30,8 @@ ATT.Sights = {
     },
 }
 
+
+ATT.KeepBaseIrons = true
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeRes = 8

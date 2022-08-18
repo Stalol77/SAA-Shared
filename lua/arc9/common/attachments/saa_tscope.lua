@@ -7,7 +7,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
 
-ATT.SwayMult = 1.3
+ATT.SwayMult = 0.925
 ATT.VisualRecoilADSMult = 0.8
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
@@ -33,7 +33,7 @@ ATT.RTScopeFOVMin = 22/3.5
 ATT.RTScopeAdjustmentLevels = 5
 ATT.RTScopeAdjustable = true
 
-ATT.RTScopeRes = 512
+ATT.RTScopeRes = 128
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/lrt7x.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
