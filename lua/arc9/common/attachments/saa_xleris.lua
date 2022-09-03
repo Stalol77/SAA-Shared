@@ -70,13 +70,14 @@ ATT.RTScopeFLIRCCCold = {
 }
 
 
-ATT.RTScopeRes = 512
+ATT.RTScopeRes = 64
 ATT.RTScopeSurface = Material("hud/arc9_saa/reticles/detail_phosphor")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/xm25.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeShadowIntensity = 30
 ATT.RTScopeNoPP = false
 ATT.RTScopeMotionBlur = false
+
 
 
 ATT.Flare = false
