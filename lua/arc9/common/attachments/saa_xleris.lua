@@ -1,6 +1,6 @@
 ATT.PrintName = "Xleris XM-25"
 ATT.Description = [[
-Battle scope manufactured for multiple distances. Triple-stage Variable x6-x2 Magnification with base thermal system.
+Battle scope manufactured for multiple distances. Triple-stage Variable x6-x2 Magnification with a togglable thermal system.
 ]]
 
 ATT.SortOrder = 4
@@ -19,6 +19,18 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true,
+        ExtraSightData = {
+            RTScopeFLIR = true,
+        },
+    },
+    {
+        Pos = Vector(0, 6, -1.67),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1,
+        IgnoreExtra = true,
+        ExtraSightData = {
+            RTScopeFLIR = false,
+        },
     },
 }
 
@@ -30,28 +42,27 @@ ATT.RTScopeFOVMin = 22/2
 ATT.RTScopeAdjustmentLevels = 3
 ATT.RTScopeAdjustable = true
 
-ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
 ATT.RTScopeFLIRRange = 30000
 ATT.RTScopeFLIRMonochrome = true
 ATT.RTScopeFLIRBlend = 0.1
 ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 0,
-    ["$pp_colour_addg"] = 0,
-    ["$pp_colour_addb"] = 0,
-    ["$pp_colour_brightness"] = 0.35,
-    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_addr"] = 0.05,
+    ["$pp_colour_addg"] = 0.18,
+    ["$pp_colour_addb"] = 0.2,
+    ["$pp_colour_brightness"] = 0,
+    ["$pp_colour_contrast"] = 1.5,
     ["$pp_colour_colour"] = 1,
-    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulr"] = 0.1,
     ["$pp_colour_mulg"] = 0,
-    ["$pp_colour_mulb"] = 1
+    ["$pp_colour_mulb"] = 0
 }
 ATT.RTScopeFLIRCCCold = {
     ["$pp_colour_addr"] = 0,
-    ["$pp_colour_addg"] = 0,
-    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_addg"] = 0.07,
+    ["$pp_colour_addb"] = 0.1,
     ["$pp_colour_brightness"] = 0,
-    ["$pp_colour_contrast"] = 0.35,
+    ["$pp_colour_contrast"] = 1.5,
     ["$pp_colour_colour"] = 1,
     ["$pp_colour_mulr"] = 0,
     ["$pp_colour_mulg"] = 0,
@@ -60,8 +71,14 @@ ATT.RTScopeFLIRCCCold = {
 
 
 ATT.RTScopeRes = 512
-ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
+ATT.RTScopeSurface = Material("hud/arc9_saa/reticles/detail_phosphor")
 ATT.RTScopeReticle = Material("hud/arc9_saa/reticles/xm25.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.3
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeShadowIntensity = 30
 ATT.RTScopeNoPP = false
+ATT.RTScopeMotionBlur = false
+
+
+ATT.Flare = false
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 32

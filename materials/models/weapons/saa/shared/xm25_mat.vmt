@@ -6,6 +6,7 @@
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal"
 	"$blendTintByBaseAlpha" "1"
 
+
     "$color2"						"[.35 .35 .35]"
 	
 	"$rimlight"					"1"
