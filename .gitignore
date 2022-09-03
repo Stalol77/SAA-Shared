@@ -63,3 +63,4 @@ models/saa/upgrades/decompiled 0.71/a_optic_ta31/a_optic_ta31_SKM_1P_A_S_TA31_in
 models/saa/upgrades/decompiled 0.71/a_optic_ta31/a_optic_ta31_SKM_1P_A_S_TA31_ins2_nokillflash.smd
 *.qc
 *.smd
+*.ini
