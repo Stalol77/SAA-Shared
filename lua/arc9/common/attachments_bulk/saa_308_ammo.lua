@@ -5,7 +5,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm M61]]
 ATT.CompactName = [[7.62 M61]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_ap.png", "mips smooth")
 ATT.Description = [[
 Early armor piercing variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -27,7 +27,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm M62 Tracer]]
 ATT.CompactName = [[7.62 M62]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_tr.png", "mips smooth")
 ATT.Description = [[
 Post-WW2 Tracer variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -45,7 +45,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm M80]]
 ATT.CompactName = [[7.62 M80]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_ap.png", "mips smooth")
 ATT.Description = [[
 Post-Viet Nam War armor piercing variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -67,7 +67,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm M118 HP]]
 ATT.CompactName = [[7.62 M118]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_hp.png", "mips smooth")
 ATT.Description = [[
 Banned Civilian Hollow Point variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -88,7 +88,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm IMI Long Range]]
 ATT.CompactName = [[7.62 IMI LR]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_snp.png", "mips smooth")
 ATT.Description = [[
 Israelian Long Range variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -111,7 +111,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm B416-S]]
 ATT.CompactName = [[7.62 B416-S]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_sub.png", "mips smooth")
 ATT.Description = [[
 Subsonic variant of the 7.62 NATO (7.62x51mm) cartridge.
 ]]
@@ -135,7 +135,7 @@ ATT = {}
 
 ATT.PrintName = [[7.62x51mm B416-ST Special]]
 ATT.CompactName = [[7.62 B416-ST]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/762_subtr.png", "mips smooth")
 ATT.Description = [[
 Subsonic variant of the 7.62 NATO (7.62x51mm) cartridge fitted with a red tracer head.
 ]]

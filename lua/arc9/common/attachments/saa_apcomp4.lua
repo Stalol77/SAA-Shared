@@ -15,10 +15,10 @@ ATT.Category = {"SAA_SCOPE_SMALL", "optic_picatinny"}
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/a_optic_apcompm4.mdl"
 ATT.ModelOffset = Vector(0.1, 0.15, -0.2)
-ATT.Scale = 1.2
+ATT.Scale = 1.3
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.2),
+        Pos = Vector(0, 6, -1.3),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         IgnoreExtra = true

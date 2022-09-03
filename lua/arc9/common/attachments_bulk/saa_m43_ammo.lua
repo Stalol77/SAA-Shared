@@ -7,6 +7,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm ++ 49 USA Import"
 ATT.CompactName = "M43 ++ 49"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a higher powder load. Raises range-penetration capacities and boosts up rate of fire and muzzle velocity at the con of a higher shot volume and significantly higher recoil.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_snp.png", "mips smooth")
 
 
 ATT.SortOrder = 3
@@ -33,6 +34,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm AP"
 ATT.CompactName = "M43 AP"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a Bullet intended for Armor Piercing. Purposedly raises material and armour penetration at the cost of a lower damage spread.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_ap.png", "mips smooth")
 
 
 ATT.SortOrder = 1
@@ -55,6 +57,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm Hollow Point"
 ATT.CompactName = "M43 HP"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a Hollow Point Bullet. Drastically increases close range damage and muzzle velocity at the cost of a lower penetration.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_hp.png", "mips smooth")
 
 
 ATT.SortOrder = 0
@@ -78,6 +81,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm Tracer"
 ATT.CompactName = "M43 TR"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a Tracer Point Bullet. Marginally lowers penetration at the benefit of lighting mid-air.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_tr.png", "mips smooth")
 
 
 ATT.SortOrder = 3
@@ -100,6 +104,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm T-45M1 Subsonic"
 ATT.CompactName = "M43 T-45M1 US"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a lower pressure outage. This round is a midway between the Tracer rounds and the Subsonic rounds, thus featuring properties of both at an extra cost of a lower feeding reliability and efficiency.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_subtr.png", "mips smooth")
 
 
 ATT.SortOrder = 4
@@ -131,6 +136,7 @@ ATT = {}
 ATT.PrintName = "7.62x39mm US Subsonic"
 ATT.CompactName = "M43 US"
 ATT.Description = [[7.62x39mm (M43) Variant featuring a lower pressure outage. Designed for suppressor use, this cartridge radically lowers volume and muzzle velocity at the cost of altered range-penetration capacities.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_sub.png", "mips smooth")
 
 
 ATT.SortOrder = 4

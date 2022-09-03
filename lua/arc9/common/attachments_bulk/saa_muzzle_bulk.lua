@@ -286,4 +286,4 @@ ATT.MuzzleDevice = false
 ATT.RecoilUpMult = 1.12
 ATT.RecoilRandomMult = 0.9
 
-ARC9.LoadAttachment(ATT, "saa_muz_magnek")
+ARC9.LoadAttachment(ATT, "saa_muz_magnek_556")
