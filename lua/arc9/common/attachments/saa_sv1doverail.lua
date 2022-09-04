@@ -11,8 +11,8 @@ ATT.Attachments = {
     {
         PrintName = "OPTIC",
         Category = {"SAA_SCOPE_MEDIUM", "SAA_SCOPE_LARGE", "SAA_SCOPE_SMALL"}, // single or {"list", "of", "values"}
-        Pos = Vector(-2, 1, -3),
-
+        Pos = Vector(-2, 0.9, -2.7),
+        Scale = 1.1,
         InstalledElements = {"nodustcoveroptics"},
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
