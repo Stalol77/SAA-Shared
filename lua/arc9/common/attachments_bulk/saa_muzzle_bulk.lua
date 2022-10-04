@@ -83,6 +83,89 @@ ARC9.LoadAttachment(ATT, "saa_muz_m43tanker")
 
 ATT = {}
 
+ATT.PrintName = "Deuter JSG Compensator"
+ATT.CompactName = "Deuter JSG"
+ATT.Icon = nil
+ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
+ATT.Category = {"muzzle","saa_54r_muz", "saa_308_muz"}
+ATT.SortOrder = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_m14"
+ATT.Model = "models/saa/upgrades/muzzle/compensator_massive.mdl"
+ATT.Scale = 1.3
+ATT.ModelOffset = Vector(0, -0.2, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.SwayMult = 2.5
+ATT.SpeedMult = 4.4/4.95
+ATT.RecoilSideMult = 0.2
+ATT.RecoilUpMult = 0.5
+
+
+ARC9.LoadAttachment(ATT, "saa_muz_m54tanker")
+
+ATT = {}
+
+ATT.PrintName = "KSK Tri-Planar Compensator"
+ATT.CompactName = "KSK TP"
+ATT.Icon = nil
+ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
+ATT.Category = {"muzzle","saa_54r_muz", "saa_308_muz"}
+ATT.SortOrder = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_m14"
+ATT.Model = "models/saa/upgrades/muzzle/compensator_whip.mdl"
+ATT.Scale = 1.3
+ATT.ModelOffset = Vector(0, -0.2, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.SwayMult = 1.9
+ATT.SpeedMult = 4.7/4.95
+ATT.RecoilSideMult = 0.7
+ATT.RecoilUpMult = 0.8
+
+
+ARC9.LoadAttachment(ATT, "saa_muz_triplanar")
+
+ATT = {}
+
+ATT.PrintName = "IA-2 .308 Suppressor"
+ATT.CompactName = "IA-2"
+ATT.Icon = nil
+ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
+ATT.Category = {"muzzle", "saa_308_muz"}
+ATT.SortOrder = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_m14"
+ATT.Model = "models/saa/upgrades/muzzle/suppressor_ia2_imbel762nato.mdl"
+ATT.ModelOffset = Vector(0, -0.2, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.1
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 890/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.04
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 97/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.1
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_ia2supx")
+
+ATT = {}
+
 ATT.PrintName =  "Bell Flash Hider"
 ATT.CompactName = "Bell"
 ATT.Icon = nil
@@ -104,6 +187,30 @@ ATT.NoFlash = true
 ARC9.LoadAttachment(ATT, "saa_muz_m43bell")
 
 ATT = {}
+
+ATT.PrintName =  "MZK 5.56 Flash Hider"
+ATT.CompactName = "MZK"
+ATT.Icon = nil
+ATT.Description = [[Simple Square-Shaped flash hider created and threaded for common 5.56 barrels.]]
+ATT.Category = {"muzzle","saa_556_muz"}
+ATT.SortOrder = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.Model = "models/saa/upgrades/muzzle/compensator_flash.mdl"
+ATT.Scale = 1.1
+ATT.ModelOffset = Vector(0.05, -0.5, -0.0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+ATT.ModelSkin = 1
+
+ATT.SwayMult = 1.22
+ATT.SpeedMult = 4.87/4.895
+ATT.ShootVolumeMult = 128.7/126.5
+ATT.NoFlash = true
+
+ARC9.LoadAttachment(ATT, "saa_muz_556bell")
+
+ATT = {}
+
 
 ATT.PrintName = "JSG-3 Flash Hider"
 ATT.CompactName = "JSG-3"
@@ -287,3 +394,112 @@ ATT.RecoilUpMult = 1.12
 ATT.RecoilRandomMult = 0.9
 
 ARC9.LoadAttachment(ATT, "saa_muz_magnek_556")
+
+
+ATT = {}
+
+ATT.PrintName = "Magnek Tacforce 9mm"
+ATT.CompactName = "Magnek"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Bulky 9mm Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_black45s.mdl"
+
+ATT.Category = {"suppressor","saa_9mm_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 2
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 95.5/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.12
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_magnek_9mm")
+
+ATT = {}
+
+ATT.PrintName = "Osprey Tan 9mm BiColar"
+ATT.CompactName = "Osprey 9mm"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Bulky 9mm Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/muzzle/suppressor_osprey.mdl"
+
+ATT.Category = {"suppressor","saa_9mm_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 95.5/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.12
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_osprey_9mm")
+
+
+ATT = {}
+
+ATT.PrintName = "Whiplash K2 Suppressor"
+ATT.CompactName = "Whiplash K2"
+ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Description = [[Sleek 5.56 Suppressor. Somewhat reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/muzzle/suppressor_whip.mdl"
+
+ATT.Category = {"suppressor","saa_556_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.5
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.ModelSkin = 1
+ATT.Silencer = true
+ATT.ShootVolumeMult = 95.5/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+
+ATT.RecoilUpMult = 1.12
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_supwhip_556")
+

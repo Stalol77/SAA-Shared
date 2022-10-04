@@ -21,6 +21,11 @@
 	"$rimmask"					"1"
 	"$envmapcoefficient"	"0.23" // Lighting will be multiplied by this value
 	"$colorcoefficient"	"0.8" // Lighting will be multiplied by this value
+
+    "$detail" "arc9/fullheat"
+           "$detailscale" "1"
+           "$detailblendfactor" "0"
+           "$detailblendmode" "5"
 Proxies
 {
     SAA_CubemapTintMult
@@ -28,6 +33,9 @@ Proxies
         multiplier	$envmapcoefficient // Use our value for default envmap tint
         resultvar	$envmaptint // Write final output to $envmaptint
     }
+        "ARC9_Heat" {
+                        blend $detailblendfactor
+        }
 }
 }
 //Material setup by ShadowRUN 幸運な. 

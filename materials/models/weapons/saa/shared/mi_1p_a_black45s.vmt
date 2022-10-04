@@ -7,8 +7,9 @@
 	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 
-	"$envmap"					"env_cubemap"
+	"$envmap"					"models\weapons\envmaps\fo4_dith"
 	"$envmaptint"				"[ .13 .13 .14 ]"
+	"$envmapcoefficient"		"1"
 
 	"$phong"					"1"
 	"$phongboost"				"100"
@@ -19,6 +20,22 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"5"
 	"$rimmask"					"1"
+
+    "$detail" "arc9/fullheat"
+           "$detailscale" "1"
+           "$detailblendfactor" "0"
+           "$detailblendmode" "5"
+Proxies
+{
+    SAA_CubemapTintMult
+    {
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+    }
+        "ARC9_Heat" {
+                        blend $detailblendfactor
+        }
+}
 }
 //Material setup by ShadowRUN 幸運な. 
 //You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.

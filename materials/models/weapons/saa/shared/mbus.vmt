@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+
+
+	"$basetexture"			"models\weapons\saa\Shared\mbus"
+	"$bumpmap"				"models\weapons\saa\Shared\mbus_n"
+	"$phongexponenttexture"			"models\weapons\saa\Shared\mbus"
+
+
+		"$nocull" "1"
+   "$color2" 			"[.7 .7 .7]"
+	"$halflambert" 			"1"
+	
+	"$normalmapalphaenvmapmask" 	"1"
+	"$normalmapalphaphongmask"    	"1"
+	
+	
+
+	"$phong"  				"1"
+	
+	"$phongboost" 			"0.3"
+	"$phongfresnelranges" 	"[.5 1 4]"
+	"$phongtint"            "[1 1.05 1.1]"
+	"$phongalbedotint" 		"1"	
+	
+ 	"$envmap" 					 	"models\weapons\envmaps\fo4_dith"
+    "$envmaptint"				 	"[0.007 0.007 0.007]"  
+	
+	
+	$rimlight               1
+	$rimlightexponent       250
+	$rimlightboost          .02	
+	$rimmask 				1
+	"$envmapcoefficient"	"1" // Lighting will be multiplied by this value
+Proxies
+{
+    SAA_CubemapTintMult
+    {
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+    }
+}
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models/weapons/saa/shared/weapon_m4a1_dm"
+	"$bumpmap"					"models/weapons/saa/shared/weapon_m4a1_nm"
+	"$phongexponenttexture"		"models/weapons/saa/shared/weapon_m4a1_dm"
+	"$phongwarptexture"			"models\weapons\saa\shared\phongwarp_metal2"
+	"$color2"					"[14 12.5 9]"
+
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"[ .03 .03 .03 ]"
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong"					"1"
+	"$phongboost"				"1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+}
+//Material setup by ShadowRUN 幸運な. 
+//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.

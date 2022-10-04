@@ -119,7 +119,8 @@ ATT.ShootVolumeMult = 100/130
 ATT.RecoilMult = 0.6
 ATT.RicochetChanceMult = 0.3
 ATT.RPMMult = 580/600
-ATT.MalfunctionMeanShotsToFail = 300
+ATT.MalfunctionMeanShotsToFailMult = 1/3
+ATT.RPMMultFirstShot = 440/600
 
 ATT.HeatPerShotOverride = 0.75
 ATT.TracerNumOverride = 2
@@ -150,6 +151,7 @@ ATT.PenetrationMult = 29/47
 ATT.ShootVolumeMult = 100/130
 ATT.HeatPerShotOverride = 0.75
 ATT.MalfunctionMeanShotsToFail = 300
+ATT.RPMMultFirstShot = 440/600
 
 
 ATT.RecoilMult = 0.6
