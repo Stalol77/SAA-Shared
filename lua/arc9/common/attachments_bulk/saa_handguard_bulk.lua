@@ -111,6 +111,7 @@ ATT.Category = {"SAA_FOREGRIP"}
 
 ATT.RecoilPatternDriftMult = 0.75
 ATT.RecoilAutoControlMult = 1.15
+ATT.RecoilUpMult = 0.76
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -147,6 +148,7 @@ ATT.Category = {"SAA_FOREGRIP"}
 
 ATT.RecoilPatternDriftMult = 0.85
 ATT.RecoilAutoControlMult = 1.15
+ATT.RecoilUpMult = 0.76
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -181,6 +183,7 @@ ATT.Category = {"SAA_FOREGRIP_RAIL"}
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
 
+ATT.RecoilUpCrouchMult = 0.5
 ATT.HoldTypeSightsOverride = "smg"
 ATT.HoldTypeOverride = "shotgun"
 
@@ -190,7 +193,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 180)
 
 ATT.RecoilPatternDriftMult = 0.75
 ATT.RecoilAutoControlMult = 1.15
-
+ATT.RecoilUpMult = 0.76
 
 
 ATT.SwayAdd = 0.1

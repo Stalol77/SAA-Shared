@@ -16,6 +16,7 @@ ATT.ArmorPiercingMult = 1.6
 ATT.DamageMaxMult = 8/6
 ATT.PhysBulletMuzzleVelocityMult = 36/64
 ATT.PenetrationMult = 1.08
+ATT.ImpactForce = 8/6
 
 ARC9.LoadAttachment(ATT, "saa_12ga_000")
 
@@ -34,7 +35,7 @@ ATT.NumOverride = 9
 ATT.DamageMaxMult = 8/9
 ATT.PhysBulletMuzzleVelocityMult = 81/64
 ATT.PenetrationMult = 0.8
-
+ATT.ImpactForce = 8/9
 
 ARC9.LoadAttachment(ATT, "saa_12ga_0")
 
@@ -53,7 +54,7 @@ ATT.NumOverride = 11
 ATT.DamageMaxMult = 8/11
 ATT.PhysBulletMuzzleVelocityMult = 81/64
 ATT.PenetrationMult = 0.7
-
+ATT.ImpactForce = 8/11
 
 ARC9.LoadAttachment(ATT, "saa_12ga_1")
 
@@ -72,7 +73,7 @@ ATT.NumOverride = 14
 ATT.DamageMaxMult = 8/14
 ATT.PhysBulletMuzzleVelocityMult = 196/64
 ATT.PenetrationMult = 0.6
-
+ATT.ImpactForce = 8/14
 
 ARC9.LoadAttachment(ATT, "saa_12ga_2")
 
@@ -91,6 +92,7 @@ ATT.NumOverride = 18
 ATT.DamageMaxMult = 8/18
 ATT.PhysBulletMuzzleVelocityMult = 196/64
 ATT.PenetrationMult = 0.4
+ATT.ImpactForce = 8/18
 
 
 ARC9.LoadAttachment(ATT, "saa_12ga_3")
@@ -110,6 +112,7 @@ ATT.NumOverride = 21
 ATT.DamageMaxMult = 8/21
 ATT.PhysBulletMuzzleVelocityMult = 441/64
 ATT.PenetrationMult = 0.3
+ATT.ImpactForce = 8/21
 
 ARC9.LoadAttachment(ATT, "saa_12ga_21")
 
@@ -134,6 +137,7 @@ ATT.PhysBulletMuzzleVelocityMult = 612/350
 ATT.PenetrationMult = 6.5
 ATT.SpreadMult = 0.95
 ATT.ImpactEffectOverride = "TeslaZap"
+ATT.ImpactForce = 8/2
 
 ARC9.LoadAttachment(ATT, "saa_12ga_lavrov")
 
@@ -162,6 +166,7 @@ ATT.DistantShootSoundOverride = "saaswat/m590a1/ks23_fire1.wav"
 ATT.MuzzleParticleOverride = "muzzleflash_minimi"
 ATT.ClipSizeMult = 1/2
 ATT.ActivateElements = {"50bmg"}
+ATT.ImpactForce = 8/1
 
 ARC9.LoadAttachment(ATT, "saa_12ga_50bmg")
 
@@ -183,6 +188,6 @@ ATT.PhysBulletMuzzleVelocityMult = 90/70
 ATT.PenetrationMult = 0.6
 ATT.MuzzleParticleOverride = "muzzleflash_dragonbreath"
 ATT.ImpactEffectOverride = "StunstickImpact"
-
+ATT.ImpactForce = 8/18
 
 ARC9.LoadAttachment(ATT, "saa_12ga_dragon")

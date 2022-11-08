@@ -16,7 +16,7 @@ ATT.Attachments = {
         InstalledElements = {"nodustcoveroptics"},
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        ExtraSightDistance = 2
+        ExtraSightDistance = 0
     }
 }
 
