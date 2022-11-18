@@ -33,6 +33,8 @@ ATT.SortOrder = 0
 ATT.Category = {"saa_gen_stanag"}
 ATT.ClipSizeOverride = 70
 ATT.RecoilSideMult = 1.5
+ATT.MalfunctionMeanShotsToFailMult = 810/850
+ATT.SpeedMult = 185/200
 
 ARC9.LoadAttachment(ATT, "saa_gen_ins_stanagdrum")
 
