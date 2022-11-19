@@ -3,7 +3,7 @@
 	"$basetexture"				"models\weapons\saa\shared\eft\sight_ar15_colt_a2_LOD0_diff"
 	"$bumpmap"					"models\weapons\saa\shared\eft\sight_ar15_colt_a2_LOD0_nrm"
 	"$phongexponenttexture"		"models\weapons\saa\shared\eft\sight_ar15_colt_a2_LOD0_glos"
-	"$phongwarptexture"			"models\weapons\saa\shared\phongwarp_metal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
 	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 

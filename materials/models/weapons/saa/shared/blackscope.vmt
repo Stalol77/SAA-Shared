@@ -2,7 +2,7 @@
 {
 	"$basetexture"				"dev\bump"
 	"$bumpmap"					"dev\flat_normal"
-	"$phongwarptexture"			"models\weapons\saa\Shared\phongwarp_metal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
 	"$color2"					"[0.12 0.11 0.13]"
 
 	"$envmap"					"env_cubemap"

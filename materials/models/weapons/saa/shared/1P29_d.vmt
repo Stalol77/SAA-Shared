@@ -3,7 +3,7 @@
 	"$basetexture"				"models\weapons\saa\shared\1P29_d"
 	"$bumpmap"					"models\weapons\saa\shared\1P29_n"
 	"$phongexponenttexture"		"models\weapons\saa\shared\1P29_e"
-	"$phongwarptexture"			"models\weapons\saa\shared\phongwarp_metal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
 	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 
