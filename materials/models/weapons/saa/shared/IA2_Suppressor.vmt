@@ -3,7 +3,7 @@
 	"$basetexture"				"models\weapons\saa\shared\muzzle\IA2_D"
 	"$bumpmap"					"models\weapons\saa\shared\muzzle\IA2_N"
 	"$phongexponenttexture"		"models\weapons\saa\shared\muzzle\IA2_E"
-	"$phongwarptexture"			"models\weapons\saa\shared\phongwarp_metal2"
+	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
 	"$color2"					"[0.6 0.6 0.6]"
 
 	"$envmap"					"models\weapons\envmaps\fo4_dith"

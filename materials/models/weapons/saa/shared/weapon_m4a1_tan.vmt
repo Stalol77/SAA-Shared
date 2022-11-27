@@ -3,7 +3,7 @@
 	"$basetexture"				"models/weapons/saa/shared/weapon_m4a1_dm"
 	"$bumpmap"					"models/weapons/saa/shared/weapon_m4a1_nm"
 	"$phongexponenttexture"		"models/weapons/saa/shared/weapon_m4a1_dm"
-	"$phongwarptexture"			"models\weapons\saa\shared\phongwarp_metal2"
+	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
 	"$color2"					"[14 12.5 9]"
 
 	"$envmap"					"env_cubemap"

@@ -3,7 +3,7 @@
 	"$basetexture"				"models\weapons\saa\Shared\T_1P_A_S_ScopeM3A_d"
 	"$bumpmap"					"models\weapons\saa\Shared\T_1P_A_S_ScopeM3A_n"
 	"$phongexponenttexture"		"models\weapons\saa\Shared\T_1P_A_S_ScopeM3A_e"
-	"$phongwarptexture"			"models\weapons\saa\Shared\phongwarp_metal2"
+	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
 	"$color2"					"[0.5 0.5 0.5]"
 
 	"$envmap"					"models\weapons\envmaps\hdri_parking"
