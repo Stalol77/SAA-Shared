@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+   "$basetexture"   "models\weapons\saa\shared\glass"
+	"$bumpmap"    "models\weapons\saa\shared\glass_nm"
+	"$translucent" 1
+	// $alpha 1
+	"$phong" 1
+	"$phongboost" "0"
+	"$phongexponent" 0
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1.0"
+	"$envmaptint" "[0.7 0.5 1.0]"
+	"$phongfresnelranges" "[0.01 0.35 3.0]"
+}
