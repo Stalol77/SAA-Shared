@@ -32,6 +32,7 @@ ATT.RTScopeFOV = 22/3.5
 ATT.RTScopeRes = 512
 ATT.RTScopeSurface = Material("models/weapons/arc9/bo2/bo2_optics/hamr_lens")
 ATT.RTScopeReticle = Material("models/weapons/optics/pu_reticle.png")
+ATT.ScopeScreenRatio = 1/3.5
 ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeShadowIntensity = 20
 ATT.RTScopeNoPP = true

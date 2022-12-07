@@ -150,7 +150,7 @@ ATT.Description = [[Dust cover produced for AKM rifles. Features the classic rib
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_ar15_a2_iron.mdl"
-ATT.ModelOffset = Vector(-1.3, 0.1, 0.5)
+ATT.ModelOffset = Vector(-1.3, -5, 0.5)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_irons"}
