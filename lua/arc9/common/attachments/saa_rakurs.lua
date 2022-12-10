@@ -25,6 +25,6 @@ ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1024
 ATT.HoloSightColorable = false
 
-ATT.ModelOffset = Vector(-1, 0.1, -1)
+ATT.ModelOffset = Vector(0, 0.19, -1)
 
-ATT.Scale = Vector(1.1, 1.1, 1.1)
+ATT.Scale = Vector(1.12, 1.12, 1.12)
