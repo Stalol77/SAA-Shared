@@ -10,7 +10,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "REFLEX"
 
-ATT.Category = {"SAA_SCOPE_SMALL", "optic_picatinny"}
+ATT.Category = {"SAA_SCOPE_XS", "SAA_SCOPE_SMALL", "optic_picatinny"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/a_optic_barska.mdl"

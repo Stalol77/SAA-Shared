@@ -8,7 +8,7 @@ ATT.SortOrder = 4
 ATT.Model = "models/saa/upgrades/arc9/scope_rakurs.mdl"
 ATT.Folder = "REFLEX"
 
-ATT.Category = {"SAA_SCOPE_SMALL", "optic_picatinny"}
+ATT.Category = {"SAA_SCOPE_XS", "SAA_SCOPE_SMALL", "optic_picatinny"}
 
 // Allows a custom sight position to be defined
 ATT.Sights = {
@@ -25,6 +25,6 @@ ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1024
 ATT.HoloSightColorable = false
 
-ATT.ModelOffset = Vector(0, 0.19, -1)
+ATT.ModelOffset = Vector(0, 0.1, -1)
 
 ATT.Scale = Vector(1.12, 1.12, 1.12)

@@ -11,13 +11,13 @@
 	"$envmaptint"				"[ .02 .02 .02 ]"
 
 	"$phong"					"1"
-	"$phongboost"				"0.1"
+	"$phongboost"				"0.2"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			"1.3"
+	"$rimlightboost"			"3"
 	"$rimmask"					"1"
 	"$envmapcoefficient"	"0.3" // Lighting will be multiplied by this value
 	"$colorcoefficient"	"0.8" // Lighting will be multiplied by this value
