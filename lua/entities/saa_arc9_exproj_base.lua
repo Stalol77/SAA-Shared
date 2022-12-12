@@ -132,7 +132,7 @@ function ENT:Detonate()
             self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_AUTO)
         else
             self:EmitSound(self.ExplosionSounds[math.random(1,#self.ExplosionSounds)], 105, 100, 1, CHAN_AUTO)
-            if self.ExplosionSoundsFar then self:EmitSound(self.ExplosionSoundsFar[math.random(1,#self.ExplosionSoundsFar)], 125, 100, 1, CHAN_AUTO) end
+            if self.ExplosionSoundsFar then self:EmitSound(self.ExplosionSoundsFar[math.random(1,#self.ExplosionSoundsFar)], 130, 100, 1, CHAN_AUTO) end
             util.Effect("saa_arc9_40he", effectdata)
             util.Effect("ThumperDust", effectdata)
         end

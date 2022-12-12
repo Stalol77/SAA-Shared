@@ -11,7 +11,7 @@
 	"$envmaptint"				"[ .02 .02 .02 ]"
 
 	"$phong"					"1"
-	"$phongboost"				"1"
+	"$phongboost"				"0.1"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 

@@ -99,7 +99,7 @@ ATT.EnterUBGLSound = "arc9/ubgl_select.wav"
 ATT.ExitUBGLSound = "arc9/ubgl_exit.wav"
 
 ATT.ShootEntUBGL = "saa_arc9_40mm_exp"
-ATT.ShootEntForceUBGL = 19000
+ATT.ShootEntForceUBGL = 16000
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
