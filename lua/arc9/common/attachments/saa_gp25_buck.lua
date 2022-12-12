@@ -23,7 +23,7 @@ ATT.IKAnimationProxy = {
     ["reload_ubgl"] = {
         Source = "reload",
         EventTable = {
-            {s = "arccw_uc/common/40mm/203insert.ogg", t = 0.5},
+            {s = "shared/foley/ubgl/gp25_foley_insert_shell.wav", t = 0.7, v = 0.5},
         }
     },
     ["enter_ubgl"] = {

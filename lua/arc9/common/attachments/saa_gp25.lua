@@ -11,7 +11,7 @@ ATT.SortOrder = 0
 ATT.Model = "models/saa/upgrades/arc9/ubgl_gp25.mdl"
 ATT.Scale = 1
 ATT.LHIK = true
-ATT.UBGLExclusiveSights = true
+ATT.RHIK = true
 ATT.Sights = {
     {
         Pos = Vector(0., 5.5, -1.32),
@@ -19,6 +19,7 @@ ATT.Sights = {
         Magnification = 1,
         IgnoreExtra = true,
         UBGLOnly = true,
+        UBGLExclusiveSights = true,
     },
 }
 
@@ -32,7 +33,7 @@ ATT.IKAnimationProxy = {
     ["reload_ubgl"] = {
         Source = "reload",
         EventTable = {
-            {s = "arccw_uc/common/40mm/203insert.ogg", t = 0.5},
+            {s = "shared/foley/ubgl/gp25_foley_insert_shell.wav", t = 0.7, v = 0.5},
         }
     },
     ["enter_ubgl"] = {
