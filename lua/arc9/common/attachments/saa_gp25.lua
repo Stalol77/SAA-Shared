@@ -11,7 +11,7 @@ ATT.SortOrder = 0
 ATT.Model = "models/saa/upgrades/arc9/ubgl_gp25.mdl"
 ATT.Scale = 1
 ATT.LHIK = true
-ATT.RHIK = true
+ATT.RHIK = false
 ATT.Sights = {
     {
         Pos = Vector(0., 5.5, -1.32),
