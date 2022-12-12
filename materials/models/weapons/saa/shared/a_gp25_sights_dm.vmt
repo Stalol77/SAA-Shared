@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\saa\shared\gp25\a_gp25_sights_dm"
+	"$bumpmap" "models\weapons\saa\shared\gp25\a_gp25_sights_nm"
+	"$phongexponenttexture"	"models\weapons\saa\shared\gp25\a_gp25_sights_ex"
+
+	"$envmap"					"models\weapons\envmaps\fo4_dith"
+	"$envmaptint"				"[ .13 .13 .13 ]"
+
+	"$phong"					"1"
+	"$phongboost"				"7"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint" 			"0"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"33"
+	"$rimlightboost"			"0.1"
+	"$rimmask"					"1"
+
+	"$nocull"					"1"
+	"$envmapcoefficient"	"0.05" // Lighting will be multiplied by this value
+Proxies
+{
+    SAA_CubemapLightMult
+    {
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+    }
+}
+}
