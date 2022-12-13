@@ -75,6 +75,7 @@ ATT.PhysBulletMuzzleVelocityUBGL = 12000
 ATT.DamageMaxUBGL = 130/18
 ATT.DamageMinUBGL = 0.2*(130/18)
 ATT.ShootVolumeUBGL = 110
+ATT.TriggerDelayUBGL = false
 ATT.ActivateElements = {"ubgl_flag", "gp25flag"}
 ATT.ExcludeElements = {"exclude_ubgl", "exclude_gp25"}
 
@@ -85,10 +86,14 @@ ATT.ShootSoundUBGL = {
     "shared/base/arc9/gp25_1.mp3",
     "shared/base/arc9/gp25_2.mp3",
 }
-ATT.LayerSoundUBGL = nil
-ATT.LayerSoundIndoorUBGL = nil
+ATT.ShootSoundIndoorUBGL = {
+    "shared/base/arc9/gp25_1.mp3",
+    "shared/base/arc9/gp25_2.mp3",
+}
+ATT.LayerSoundUBGL = false
+ATT.LayerSoundIndoorUBGL = false
+
 ATT.DistantShootSoundUBGL = false
-ATT.HasSightsUBGL = false
 
 ATT.EnterUBGLSound = "arc9/ubgl_select.wav"
 ATT.ExitUBGLSound = "arc9/ubgl_exit.wav"
