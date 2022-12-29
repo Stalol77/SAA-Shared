@@ -20,9 +20,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("models/weapons/optics/rakurs_reticle.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 1024
+ATT.HoloSightReticle = Material("models/weapons/optics/rakurs_reticle")
+ATT.HoloSightSize = 768
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0.1, -1)

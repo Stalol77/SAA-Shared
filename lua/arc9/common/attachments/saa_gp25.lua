@@ -55,11 +55,8 @@ ATT.IKAnimationProxy = {
         Source = "out"
     },
 } -- When an animation event plays, override it with one based on this LHIK model.
-ATT.IKGunMotionOffset = Vector(0, 0, 0)
-ATT.IKGunMotionOffsetAngle = Angle(0, 0, 0)
 
-ATT.IKGunMotionMult = 0.5
-ATT.IKGunMotionAngleMult = 0.5
+
 
 ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 0, -1)
@@ -80,6 +77,7 @@ ATT.UBGLClipSize = 1
 ATT.UBGLFiremode = 1
 ATT.UBGLFiremodeName = "GP25"
 ATT.UBGLChamberSize = 0
+ATT.MalfunctionJamUBGL = false
 ATT.ShootVolumeUBGL = 110
 ATT.TriggerDelayUBGL = false
 ATT.ActivateElements = {"ubgl_flag", "gp25flag"}
