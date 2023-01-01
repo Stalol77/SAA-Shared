@@ -62,7 +62,7 @@ ATT = {}
 
 ATT.PrintName = "AWS Tanker Compensator"
 ATT.CompactName = "AWS Tanker"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/308comp.png", "mips smooth")
 ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
 ATT.Category = {"muzzle","saa_m43_muz", "saa_54r_muz", "saa_308_muz"}
 ATT.SortOrder = 1
@@ -85,7 +85,7 @@ ATT = {}
 
 ATT.PrintName = "Deuter JSG Compensator"
 ATT.CompactName = "Deuter JSG"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/maxcomp.png", "mips smooth")
 ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
 ATT.Category = {"muzzle","saa_54r_muz", "saa_308_muz"}
 ATT.SortOrder = 1
@@ -108,7 +108,7 @@ ATT = {}
 
 ATT.PrintName = "KSK Tri-Planar Compensator"
 ATT.CompactName = "KSK TP"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/generic_muzzle.png", "mips smooth")
 ATT.Description = [[Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
 ATT.Category = {"muzzle","saa_54r_muz", "saa_308_muz"}
 ATT.SortOrder = 1
@@ -168,7 +168,7 @@ ATT = {}
 
 ATT.PrintName =  "Bell Flash Hider"
 ATT.CompactName = "Bell"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/deuter.png", "mips smooth")
 ATT.Description = [[Rudimental bell shaped flash hider intended for 7.62 Soviet Barrels. Reduces muzzle flash while deeply heavening the barrel.]]
 ATT.Category = {"muzzle","saa_m43_muz", "saa_54r_muz"}
 ATT.SortOrder = 1
@@ -236,7 +236,7 @@ ATT = {}
 
 ATT.PrintName = "Deuter Muzzle Booster"
 ATT.CompactName = "Deuter"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/deuter_2.png", "mips smooth")
 ATT.Description = [[Bell shaped muzzle device that aids the gas recovery system, increasing rate of fire.]]
 ATT.Category = {"muzzle","saa_m43_muz", "saa_308_muz"}
 ATT.SortOrder = 1
