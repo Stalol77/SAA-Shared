@@ -2,6 +2,8 @@ ATT.PrintName = "Elcan SU230 Specter"
 ATT.Description = [[
 Battle scope manufactured for multiple distances. Variable Magnification with top up ironsights.
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/su230.png", "mips smooth")
+
 
 ATT.SortOrder = 4
 ATT.Free = false

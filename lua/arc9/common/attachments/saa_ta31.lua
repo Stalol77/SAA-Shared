@@ -3,6 +3,8 @@ ATT.Description = [[
 Battle scope manufactured for multiple distances. Non-variable x2.8 Magnification.
 
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/ta31.png", "mips smooth")
+
 
 ATT.SortOrder = 4
 ATT.Free = false

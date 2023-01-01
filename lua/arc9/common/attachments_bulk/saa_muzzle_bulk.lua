@@ -5,7 +5,7 @@ ATT = {}
 
 ATT.PrintName = "PBS-1 Suppressor"
 ATT.CompactName = "PBS-1"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/att/pbs1.png", "mips smooth")
 ATT.Description = [[Iconic Soviet suppressor that fits most russian threaded barrels. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -40,7 +40,7 @@ ATT = {}
 
 ATT.PrintName = "Zenit DTK-1 Muzzle Device"
 ATT.CompactName = "DTK-1"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/dtk1.png", "mips smooth")
 ATT.Description = [[Muzzle Brake-Compensator produced by private companies. Eases Gas expansion at the muzzle thus enhancing recoil direction and handling.]]
 ATT.Category = {"muzzle","saa_m43_muz","saa_545_muz"}
 ATT.SortOrder = 1
@@ -214,7 +214,7 @@ ATT = {}
 
 ATT.PrintName = "JSG-3 Flash Hider"
 ATT.CompactName = "JSG-3"
-ATT.Icon = nil
+ATT.Icon = Material("hud/arc9_saa/att/generic_muzzle.png", "mips smooth")
 ATT.Description = [[Bell shaped flash hider intended for M43 and 5.45 usage. Reduces muzzle flash while deeply heavening the barrel.]]
 ATT.Category = {"muzzle","saa_m43_muz", "saa_545_muz"}
 ATT.SortOrder = 1

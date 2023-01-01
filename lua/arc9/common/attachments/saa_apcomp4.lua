@@ -3,6 +3,8 @@ ATT.Description = [[
 Holographic Sight with no Magnification with a red-dot reticule.
 
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/compm4.png", "mips smooth")
+
 ATT.Pros = {
     "Clearer Sight Picture"
 }

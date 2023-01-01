@@ -6,6 +6,8 @@ Holographic Sight with no Magnification with an upward-arrow reticule.
 ATT.Pros = {
     "Clearer Sight Picture"
 }
+ATT.Icon = Material("hud/arc9_saa/att/okp7.png", "mips smooth")
+
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "REFLEX"
