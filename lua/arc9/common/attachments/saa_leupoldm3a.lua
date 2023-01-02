@@ -3,6 +3,7 @@ ATT.CompactName = "M3-A"
 ATT.Description = [[
 Commercial scope mainly intended for long range engagements. Variable Magnification with Hit Dampening Eyecup.
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/leupoldm3a.png", "mips smooth")
 
 ATT.SortOrder = 4
 ATT.Free = false

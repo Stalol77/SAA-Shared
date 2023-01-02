@@ -6,6 +6,7 @@ Soviet holographic optic manufactured for AK type Dovetail Plates. Offers no Mag
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.Icon = Material("hud/arc9_saa/att/1p63.png", "mips smooth")
 
 ATT.Category = {"SAA_AK_DOVETAIL", "optic_dovetail"}
 
