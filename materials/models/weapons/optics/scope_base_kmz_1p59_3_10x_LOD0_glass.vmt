@@ -1,0 +1,32 @@
+/////////////////////////////
+//REPLACE ME WITH lense.vmt//
+/////////////////////////////
+
+"VertexLitGeneric"
+{
+	"$basetexture"				"dev\bump"
+	"$bumpmap"					"dev\flat_normal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
+	"$color2"					"[0 0 0]"
+	"$additive"					"1"
+
+	"$envmap" 					"models\weapons\envmaps\hdri_parking"
+	"$envmaptint"				"[ .05 .04 .06 ]"
+	"$envmapcoefficient"		"0.05" // Lighting will be multiplied by this value
+
+	"$phong"					"1"
+	"$phongexponent"			"900"
+	"$phongboost"				".1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+
+Proxies
+{
+    SAA_CubemapTintMult
+    {
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+    }
+}
+}
+//Material setup by ShadowRUN 幸運な. 
+//Do NOT edit\modify\redistribute these materials without my explicit permission.
