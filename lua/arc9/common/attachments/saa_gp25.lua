@@ -1,4 +1,4 @@
-ATT.PrintName = [[GP-25 "Kastur" Grenade Launcher]]
+ATT.PrintName = [[GP-25 "Kostyor" Grenade Launcher]]
 ATT.CompactName = [[GP-25]]
 ATT.Icon = Material("hud/arc9_saa/icons/gp25.png")
 ATT.Description = [[
