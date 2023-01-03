@@ -7,8 +7,10 @@
 	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 
-	"$envmap"					"models\weapons\envmaps\FO4_DITH"
-	"$envmaptint"				"[ .03 .03 .03 ]"
+	"$envmap" 					"models\weapons\envmaps\fo4_dith"
+	"$envmapfresnel" 			"0.25"
+	"$envmaptint"				"0.06"
+	"$envmapcoefficient"		"0.5" // Lighting will be multiplied by this value
 
 	"$phong"					"1"
 	"$phongboost"				"10"
@@ -19,8 +21,7 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"10"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.5" // Lighting will be multiplied by this value
-	"$colorcoefficient"	"1.5" // Lighting will be multiplied by this value
+
 Proxies
 {
     SAA_CubemapTintMult
@@ -31,4 +32,4 @@ Proxies
 }
 }
 //Material setup by ShadowRUN 幸運な. 
-//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.
+//Do NOT edit\modify\redistribute these materials without my explicit permission.

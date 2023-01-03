@@ -4,14 +4,14 @@
 	"$bumpmap"					"models\weapons\saa\Shared\T_1P_A_AC_AKRail_n"
 	"$phongexponenttexture"		"models\weapons\saa\Shared\T_1P_A_AC_AKRail_e"
 	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
-	"$color2"					"[0 0 0]"
-	"$blendTintByBaseAlpha"		"1"
+	"$color2"					"[0.35 0.35 0.35]"
 
-	"$envmap" 			"models\weapons\envmaps\fo4_dith"
-	"$envmaptint"				"[ .13 .13 .13 ]"
+	"$envmap" 					"models\weapons\envmaps\fo4_dith"
+	"$envmaptint"				"0.13"
+	"$envmapcoefficient"		"0.5" // Lighting will be multiplied by this value
 
 	"$phong"					"1"
-	"$phongboost"				"30"
+	"$phongboost"				"50"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 
@@ -19,8 +19,7 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"5"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.15" // Lighting will be multiplied by this value
-	"$colorcoefficient"	"0.8" //Lighting will be multiplied by this value
+
 Proxies
 {
     SAA_CubemapTintMult
@@ -31,4 +30,4 @@ Proxies
 }
 }
 //Material setup by ShadowRUN 幸運な. 
-//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.
+//Do NOT edit\modify\redistribute these materials without my explicit permission.

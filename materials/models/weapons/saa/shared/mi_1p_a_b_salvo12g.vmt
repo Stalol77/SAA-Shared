@@ -3,22 +3,33 @@
 	"$basetexture"				"models\weapons\saa\Shared\T_1P_A_B_Salvo12G_d"
 	"$bumpmap"					"models\weapons\saa\Shared\T_1P_A_B_Salvo12G_n"
 	"$phongexponenttexture"		"models\weapons\saa\Shared\T_1P_A_B_Salvo12G_e"
-	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
-	"$color2"					"[0.5 0.5 0.5]"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal2"
+	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 
-	"$envmap"					"env_cubemap"
-	"$envmaptint"				"[ .06 .06 .06 ]"
+	"$envmap"					"models\weapons\envmaps\fo4_dith"
+	"$envmapfresnel" 			"0.5"
+	"$envmaptint"				"0.3"
+	"$envmapcoefficient"		"0.5"
 
 	"$phong"					"1"
-	"$phongboost"				"30"
+	"$phongboost"				"15"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			"3"
+	"$rimlightboost"			"1"
 	"$rimmask"					"1"
+
+Proxies
+{
+    SAA_CubemapTintMult
+    {
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+    }
+}
 }
 //Material setup by ShadowRUN 幸運な. 
-//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.
+//Do NOT edit\modify\redistribute these materials without my explicit permission.

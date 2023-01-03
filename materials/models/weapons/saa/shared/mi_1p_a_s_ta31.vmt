@@ -4,15 +4,18 @@
 	"$bumpmap"					"models\weapons\saa\Shared\T_1P_A_S_TA31_n"
 	"$phongexponenttexture"		"models\weapons\saa\Shared\T_1P_A_S_TA31_e"
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
-	"$color2"					"[0.5 0.5 0.5]"
+	"$color2"					"[0.35 0.35 0.35]"
+	"$blendTintByBaseAlpha"		"1"
 
 	$detail						"models\weapons\saa\Shared\T_1P_A_S_TA31_si"
     $detailscale                1
    	$detailblendfactor 			1
    	$detailblendmode			5
 
-	"$envmap"					"models\weapons\envmaps\hdri_parking"
-	"$envmaptint"				"[ .03 .03 .03 ]"
+	"$envmap" 					"models\weapons\envmaps\fo4_dith"
+	"$envmapfresnel" 			"0.5"
+	"$envmaptint"				"0.3"
+	"$envmapcoefficient"		"0.5" // Lighting will be multiplied by this value
 
 	"$phong"					"1"
 	"$phongboost"				"15"
@@ -21,17 +24,17 @@
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			".5"
+	"$rimlightboost"			"1"
 	"$rimmask"					"1"
-	"$envmapcoefficient"		"0.7" // Lighting will be multiplied by this value
+
 Proxies
-	{
+{
     SAA_CubemapTintMult
-		{
+    {
         multiplier	$envmapcoefficient // Use our value for default envmap tint
         resultvar	$envmaptint // Write final output to $envmaptint
-		}
-	}
+    }
+}
 }
 //Material setup by ShadowRUN 幸運な. 
-//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.
+//Do NOT edit\modify\redistribute these materials without my explicit permission.
