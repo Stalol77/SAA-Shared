@@ -3,6 +3,8 @@ ATT.Description = [[Modern russian sight.]]
 ATT.Pros = {
     "Clearer Sight Picture"
 }
+ATT.Icon = Material("hud/arc9_saa/att/Rakurs.png", "mips smooth")
+
 ATT.SortOrder = 4
 
 ATT.Model = "models/saa/upgrades/arc9/scope_rakurs.mdl"

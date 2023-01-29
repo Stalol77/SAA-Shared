@@ -2,6 +2,8 @@ ATT.PrintName = "Xleris XM-25"
 ATT.Description = [[
 Battle scope manufactured for multiple distances. Triple-stage Variable x6-x2 Magnification with a togglable thermal system.
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/XM25.png", "mips smooth")
+
 
 ATT.SortOrder = 4
 ATT.Free = false

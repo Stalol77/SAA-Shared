@@ -1,6 +1,7 @@
 ATT.PrintName = "SV-1 Dovetail Rail"
 ATT.CompactName = "SV-1"
 ATT.Description = "Universal Dovetail Plate attachment that allows for railed optics to be used. Renders aim harder to control and may occlude ironsights."
+ATT.Icon = Material("hud/arc9_saa/att/AK_rail.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = {"SAA_AK_DOVETAIL", "SAA_SVD_DOVETAIL"}

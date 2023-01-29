@@ -2,6 +2,7 @@ ATT.PrintName = "V8X Tac-Point"
 ATT.Description = [[
 Commercial scope mainly intended for long range engagements. Variable Magnification with Hit Dampening Eyecup.
 ]]
+ATT.Icon = Material("hud/arc9_saa/att/Tacpoint.png", "mips smooth")
 
 ATT.SortOrder = 4
 ATT.Free = false

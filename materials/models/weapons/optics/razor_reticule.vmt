@@ -1,14 +1,15 @@
 "UnlitGeneric"
 {
-	"$basetexture"				"models\weapons\optics\Razor_Reticule"
-	"$detail"					"models\weapons\tfa_ins2\optics\laser_noise"
+	"$basetexture"				"models\weapons\optics\razor_reticule"
+	"$detail"					"models\weapons\optics\laser_noise"
     $detailscale                5
-   	$detailblendfactor 			20
+   	$detailblendfactor 			1
    	$detailblendmode			2
 //	"$translucent" 	"1"
 	"$additive"	"1"
+	$detailtexturetransform center .5 .5 scale 1.5 1.5 rotate 0 translate 0 0
 
-	$color2 "[3 3 3]"
+	$color2 "[3 0 0]"
 
 	Proxies
 	{
