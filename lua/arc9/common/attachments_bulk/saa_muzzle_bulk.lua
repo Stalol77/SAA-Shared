@@ -6,12 +6,12 @@ ATT = {}
 ATT.PrintName = "PBS-1 Suppressor"
 ATT.CompactName = "PBS-1"
 ATT.Icon = Material("hud/arc9_saa/att/pbs1.png", "mips smooth")
-ATT.Description = [[Iconic Soviet suppressor that fits most russian threaded barrels. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.Description = [[Iconic Soviet suppressor that fits 7.62x39mm threaded barrels. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
 ATT.Model = "models/saa/upgrades/a_suppressor_pbs01.mdl"
 
-ATT.Category = {"suppressor","saa_m43_muz","saa_545_muz"}
+ATT.Category = {"suppressor","saa_m43_muz",}
 ATT.Folder = "SUPP"
 
 ATT.Scale = 1.1
@@ -30,11 +30,50 @@ ATT.ShootVolumeMult = 97/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
+ATT.BarrelLengthAdd = 9
+ATT.SwayMult = 1.1
 
 ATT.RecoilUpMult = 1.1
 ATT.RecoilRandomMult = 0.9
 
 ARC9.LoadAttachment(ATT, "saa_muz_pbs1")
+
+ATT = {}
+
+ATT.PrintName = "PBS-5 Suppressor"
+ATT.CompactName = "PBS-5"
+ATT.Icon = Material("hud/arc9_saa/att/pbs5.png", "mips smooth")
+ATT.Description = [[Iconic Soviet suppressor that fits 5.45x39mm threaded barrels. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_pbs5.mdl"
+
+ATT.Category = {"suppressor","saa_545_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.1
+ATT.ModelOffset = Vector(0, -1.9, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 890/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.04
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 94/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+ATT.SwayMult = 1.3
+
+ATT.RecoilUpMult = 1.1
+ATT.RecoilRandomMult = 0.9
+ATT.BarrelLengthAdd = 12
+
+ARC9.LoadAttachment(ATT, "saa_muz_pbs4")
 
 ATT = {}
 
