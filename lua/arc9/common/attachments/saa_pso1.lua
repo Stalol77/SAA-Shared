@@ -26,7 +26,9 @@ ATT.Sights = {
 
 
 ATT.KeepBaseIrons = false
-
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 0, -0.5)
+end
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1

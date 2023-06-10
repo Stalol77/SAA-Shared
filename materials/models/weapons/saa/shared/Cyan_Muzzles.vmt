@@ -19,9 +19,18 @@
 	"$rimlightboost"			"20"
 	"$rimmask"					"1"
 	"$envmapcoefficient"	"0.3" // Lighting will be multiplied by this value
-	"$colorcoefficient"	"0.3" // Lighting will be multiplied by this value
+
+
+	"$detailblendmode" "4"
+	"$detailblendfactor" "0.8"
+
 Proxies
 {
+	CustomCamo {
+		camoTexture $detail
+		camoScale $detailscale
+        blend $detailblendfactor
+	}
     SAA_CubemapTintMult
     {
         multiplier	$envmapcoefficient

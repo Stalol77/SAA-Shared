@@ -20,14 +20,17 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
+	
+	"$detailblendmode" "4"
+	"$detailblendfactor" "0.4"
 Proxies
-	{
+{
     SAA_CubemapTintMult
-		{
+    {
         multiplier	$envmapcoefficient // Use our value for default envmap tint
         resultvar	$envmaptint // Write final output to $envmaptint
-		}
-	}
+    }
+}
 }
 
 //Material setup by ShadowRUN 幸運な. 
