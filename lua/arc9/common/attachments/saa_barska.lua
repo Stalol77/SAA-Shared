@@ -11,6 +11,7 @@ ATT.Pros = {
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "REFLEX"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_SCOPE_XS", "SAA_SCOPE_SMALL", "optic_picatinny"}
 

@@ -4,6 +4,7 @@ Battle scope manufactured for multiple distances. Triple-stage Variable x6-x2 Ma
 ]]
 ATT.Icon = Material("hud/arc9_saa/att/XM25.png", "mips smooth")
 
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SortOrder = 4
 ATT.Free = false

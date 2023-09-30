@@ -6,11 +6,14 @@ Soviet scope manufactured for SVD type Dovetail Plates. Non-variable x4 Magnific
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.CustomPros = {
+    ["Magnification"] = "x4",
+}
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
-ATT.Category = {"SAA_SVD_DOVETAIL"}
-ATT.Pros = {
-    [[Retains use of base ironsights.]],
-[[Press ALT+E to cycle between the sights.]]}
+ATT.Category = {"SAA_SVD_DOVETAIL", "SAA_AK_DOVETAIL"}
+
+ATT.Icon = Material("hud/arc9_saa/att/posp.png", "mips smooth")
 
 ATT.Model = "models/saa/upgrades/arc9/a_optic_posp-4x24m.mdl"
 ATT.Scale = 1.45
@@ -29,12 +32,7 @@ ATT.Sights = {
     },
 }
 
-ATT.IronSightsOverride = {
-    Pos = Vector(-2.025, 0, 0.55),
-    Ang = Angle(0, -0.15, 0),
-}
-
-ATT.KeepBaseIrons = true
+ATT.KeepBaseIrons = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1

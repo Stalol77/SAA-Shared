@@ -5,6 +5,8 @@ ATT.Icon = Material("hud/arc9_saa/att/AK_rail.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = {"SAA_AK_DOVETAIL", "SAA_SVD_DOVETAIL"}
+ATT.MenuCategory = "SAA ARC9 - Optics"
+
 ATT.Model = "models/saa/upgrades/w_rail_ak.mdl"
 ATT.ModelOffset = Vector(-0.95, 1.15, -2.15)
 ATT.ExcludeElements = {"nodovetailoptics"}

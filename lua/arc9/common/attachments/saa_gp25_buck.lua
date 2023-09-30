@@ -1,13 +1,13 @@
 ATT.PrintName = [[GP-25 "Kostyor" Grenade Launcher - Buckshot]]
 ATT.CompactName = [[GP-25 Buck]]
-ATT.Icon = Material("hud/arc9_saa/icons/gp25.png")
+ATT.Icon = Material("hud/arc9_saa/icons/gp25_ao.png", "mips smooth")
 ATT.Description = [[
     Underbarrel grenade launcher that fires 40mm High Explosive rounds.
     Loaded with 40mm Buckshot Shells.
 ]]
 ATT.Pros = {}
 ATT.Cons = {}
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 
 ATT.Model = "models/saa/upgrades/arc9/ubgl_gp25.mdl"
 ATT.Scale = 1
@@ -71,13 +71,15 @@ ATT.UBGLFiremode = 1
 ATT.UBGLFiremodeName = "GP25"
 ATT.UBGLChamberSize = 0
 ATT.NumUBGL = 18
-ATT.PhysBulletMuzzleVelocityUBGL = 12000
+ATT.PhysBulletMuzzleVelocityUBGL = 12000*(340/715)
 ATT.DamageMaxUBGL = 130/18
+ATT.RecoilUBGL = 5
 ATT.DamageMinUBGL = 0.2*(130/18)
 ATT.ShootVolumeUBGL = 110
 ATT.TriggerDelayUBGL = false
 ATT.ActivateElements = {"ubgl_flag", "gp25flag"}
 ATT.ExcludeElements = {"exclude_ubgl", "exclude_gp25"}
+ATT.PenetrationUBGL = 2
 
 ATT.SpreadUBGL = 0.05
 

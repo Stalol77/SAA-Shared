@@ -14,6 +14,7 @@
 	"$phongboost"				"0.2"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
+	"$phongalbedoboost"			"100"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"

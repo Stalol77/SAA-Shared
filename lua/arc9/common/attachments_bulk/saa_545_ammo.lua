@@ -7,7 +7,7 @@ ATT = {}
 ATT.PrintName = "5.45x39mm BS gs"
 ATT.CompactName = "5.45 BS gs"
 ATT.Description = [[5.45x39mm Variant featuring a Bullet intended for Armor Piercing. Purposedly raises material and armour penetration at the cost of a lower damage spread.]]
-ATT.Icon = Material("hud/arc9_saa/icons/m43_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/545_ap.png", "mips smooth")
 
 
 ATT.SortOrder = 1
@@ -31,7 +31,7 @@ ATT = {}
 ATT.PrintName = "5.45x39mm PS gs"
 ATT.CompactName = "5.45 PS gs"
 ATT.Description = [[5.45x39mm Variant featuring a Bullet intended for Armor Piercing. Purposedly raises material and armour penetration at the cost of a lower damage spread.]]
-ATT.Icon = Material("hud/arc9_saa/icons/m43_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/545_hp.png", "mips smooth")
 
 
 ATT.SortOrder = 1
@@ -55,7 +55,7 @@ ATT = {}
 ATT.PrintName = "5.45x39mm T gs"
 ATT.CompactName = "5.45 T gs"
 ATT.Description = [[5.45x39mm Variant featuring a Bullet intended for Armor Piercing. Purposedly raises material and armour penetration at the cost of a lower damage spread.]]
-ATT.Icon = Material("hud/arc9_saa/icons/m43_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/545_tr.png", "mips smooth")
 
 
 ATT.SortOrder = 1
@@ -77,7 +77,7 @@ ATT = {}
 ATT.PrintName = "5.45x39mm US gs"
 ATT.CompactName = "5.45 US gs"
 ATT.Description = [[5.45x39mm Variant featuring a Bullet intended for Armor Piercing. Purposedly raises material and armour penetration at the cost of a lower damage spread.]]
-ATT.Icon = Material("hud/arc9_saa/icons/m43_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/545_sub.png", "mips smooth")
 
 
 ATT.SortOrder = 1

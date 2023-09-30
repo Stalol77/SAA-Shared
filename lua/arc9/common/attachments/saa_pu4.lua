@@ -9,9 +9,12 @@ ATT.Free = false
 ATT.Folder = "SCOPE"
 
 ATT.Category = {"SAA_MOSIN_SCOPES"}
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_pu.mdl"
+ATT.Icon = Material("hud/arc9_saa/att/pu4.png", "mips smooth")
+
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-0.9, 1.15, 2.35)
 ATT.ExcludeElements = {"nodovetailoptics"}

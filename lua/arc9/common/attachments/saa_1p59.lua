@@ -6,8 +6,10 @@ Russian adjustable range scope manufactured for AK type Dovetail Plates. Offers 
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_AK_DOVETAIL", "optic_dovetail", "SAA_SVD_DOVETAIL"}
+ATT.Icon = Material("hud/arc9_saa/att/1p59.png", "mips smooth")
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_1p59_dovetail.mdl"

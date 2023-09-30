@@ -6,8 +6,10 @@ Russian adjustable range scope manufactured for Universal type Dovetail Plates. 
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"optic_dovetail", "SAA_SVD_DOVETAIL"}
+ATT.Icon = Material("hud/arc9_saa/att/1p69.png", "mips smooth")
 ATT.Pros = {
     [[Retains use of base ironsights.]],
 [[Press ALT+E to cycle between the sights.]]

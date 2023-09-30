@@ -19,6 +19,11 @@ ATT.PhysBulletMuzzleVelocityMult = 785/715
 ATT.ShootVolumeMult = 140/130
 ATT.RangeMaxMult = 575/304.8
 ATT.HeatPerShotOverride = 1.45
+ATT.VisualRecoilUpMult = 3
+ATT.VisualRecoilSideMult = 2.5
+ATT.ViewRecoilUpMult = 2.5
+ATT.ViewRecoilSideMult = 2.5
+ATT.DamageMaxMult = 40.5/37
 
 ATT.RecoilMult = 1.25
 ATT.RPMMult = 635/600

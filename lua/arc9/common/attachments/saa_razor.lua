@@ -5,6 +5,7 @@ Holographic Sight with no Magnification with a crosshair reticule.
 
 ]]
 ATT.Icon = Material("hud/arc9_saa/att/razor.png", "mips smooth")
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Pros = {
     "Clearer Sight Picture"

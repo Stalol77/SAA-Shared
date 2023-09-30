@@ -9,6 +9,7 @@ ATT.Icon = Material("hud/arc9_saa/att/c79.png", "mips smooth")
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 

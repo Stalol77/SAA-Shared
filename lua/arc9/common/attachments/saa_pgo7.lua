@@ -6,11 +6,13 @@ Soviet scope manufactured for AK type Dovetail Plates, purposed for the RPG-7 ro
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_AK_DOVETAIL", "SAA_SVD_DOVETAIL", "SAA_RPG7_DOVETIAL", "optic_dovetail"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_pgo7.mdl"
+ATT.Icon = Material("hud/arc9_saa/att/pgo7.png", "mips smooth")
 ATT.Scale = 1.3
 ATT.ModelOffset = Vector(-0.6, 1.45, 3.)
 ATT.ExcludeElements = {"nodovetailoptics"}

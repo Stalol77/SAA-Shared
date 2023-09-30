@@ -1,4 +1,5 @@
 ATT.PrintName = "Elcan SU230 Specter"
+ATT.CompactName = "SU230 Specter"
 ATT.Description = [[
 Battle scope manufactured for multiple distances. Variable Magnification with top up ironsights.
 ]]
@@ -8,6 +9,7 @@ ATT.Icon = Material("hud/arc9_saa/att/su230.png", "mips smooth")
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 
@@ -27,9 +29,20 @@ ATT.Sights = {
         Pos = Vector(0, 6, -2.55),
         Ang = Angle(0, 1.2, 0),
         Magnification = 1,
+        ExcludeElements = {"su230_topup"},
         IgnoreExtra = true,
         Disassociate = true
     },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "TOPUP SIGHT",
+        Category = {"SAA_SU230_TOP"},
+        Pos = Vector(0,0,0),
+        Ang = Angle(0,0,0),
+        Icon_Offset = Vector(0, 0, 2),
+    }
 }
 
 ATT.RTScope = true

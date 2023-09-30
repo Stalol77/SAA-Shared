@@ -32,9 +32,8 @@ ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
 ATT.BarrelLengthAdd = 9
 ATT.SwayMult = 1.1
-
-ATT.RecoilUpMult = 1.1
-ATT.RecoilRandomMult = 0.9
+ATT.VisualRecoilDampingConstMult = 2/5
+ATT.VisualRecoilUpMult = 1.6
 
 ARC9.LoadAttachment(ATT, "saa_muz_pbs1")
 
@@ -69,8 +68,8 @@ ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
 ATT.SwayMult = 1.3
 
-ATT.RecoilUpMult = 1.1
-ATT.RecoilRandomMult = 0.9
+ATT.VisualRecoilDampingConstMult = 2/5
+ATT.VisualRecoilUpMult = 1.6
 ATT.BarrelLengthAdd = 12
 
 ARC9.LoadAttachment(ATT, "saa_muz_pbs4")
@@ -114,9 +113,9 @@ ATT.ModelAngleOffset = Angle(0, 270, 0)
 
 ATT.SwayMult = 1.4
 ATT.SpeedMult = 4.87/4.95
-ATT.RecoilSideMult = 0.5
-ATT.RecoilUpMult = 0.985
-
+ATT.VisualRecoilSideMult = 0.5
+ATT.VisualRecoilUpMult = 0.985
+ATT.RecoilSide = 0.9
 
 ARC9.LoadAttachment(ATT, "saa_muz_m43tanker")
 
@@ -137,8 +136,8 @@ ATT.ModelAngleOffset = Angle(0, 270, 0)
 
 ATT.SwayMult = 2.5
 ATT.SpeedMult = 4.4/4.95
-ATT.RecoilSideMult = 0.2
-ATT.RecoilUpMult = 0.5
+ATT.VisualRecoilSideMult = 0.2
+ATT.VisualRecoilUpMult = 0.5
 
 
 ARC9.LoadAttachment(ATT, "saa_muz_m54tanker")
@@ -160,8 +159,8 @@ ATT.ModelAngleOffset = Angle(0, 270, 0)
 
 ATT.SwayMult = 1.9
 ATT.SpeedMult = 4.7/4.95
-ATT.RecoilSideMult = 0.7
-ATT.RecoilUpMult = 0.8
+ATT.VisualRecoilSideMult = 0.7
+ATT.VisualRecoilUpMult = 0.8
 
 
 ARC9.LoadAttachment(ATT, "saa_muz_triplanar")

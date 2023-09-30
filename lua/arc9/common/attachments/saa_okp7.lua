@@ -7,6 +7,7 @@ ATT.Pros = {
     "Clearer Sight Picture"
 }
 ATT.Icon = Material("hud/arc9_saa/att/okp7.png", "mips smooth")
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SortOrder = 4
 ATT.Free = false

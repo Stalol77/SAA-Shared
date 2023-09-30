@@ -1,10 +1,11 @@
-ATT.PrintName = "Trijicon TA-31"
+ATT.PrintName = "Trijicon TA-31 ACOG"
+ATT.CompactName = "ACOG TA-31"
 ATT.Description = [[
 Battle scope manufactured for multiple distances. Non-variable x2.8 Magnification.
 
 ]]
 ATT.Icon = Material("hud/arc9_saa/att/ta31.png", "mips smooth")
-
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SortOrder = 4
 ATT.Free = false
@@ -24,6 +25,16 @@ ATT.Sights = {
         Magnification = 1,
         IgnoreExtra = true
     },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "TOPUP SIGHT",
+        Category = {"SAA_TA31_TOP"},
+        Pos = Vector(0,0,0),
+        Ang = Angle(0,0,0),
+        Icon_Offset = Vector(0, 0, 2),
+    }
 }
 
 ATT.RTScope = true

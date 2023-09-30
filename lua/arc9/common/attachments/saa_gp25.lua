@@ -1,6 +1,6 @@
 ATT.PrintName = [[GP-25 "Kostyor" Grenade Launcher]]
-ATT.CompactName = [[GP-25]]
-ATT.Icon = Material("hud/arc9_saa/icons/gp25.png")
+ATT.CompactName = [[GP-25 HE]]
+ATT.Icon = Material("hud/arc9_saa/icons/gp25_ao.png", "mips smooth")
 ATT.Description = [[
     Underbarrel grenade launcher that fires 40mm High Explosive rounds.
 ]]
@@ -63,6 +63,9 @@ ATT.ActivePosHook = function(wep, vec)
 end
 
 ATT.ActiveAngHook = function(wep, ang)
+    local addit = Angle(0, 0, -2)
+    if wep:GetProcessedValue("UBGL") == true then addit = Angle(0, 10, -2)
+    else addit = Angle(0, 0, -2) end
     return ang + Angle(0, 0, -2)
 end
 
@@ -70,6 +73,7 @@ ATT.Category = {"SAA_GP25"}
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1
+ATT.SwayMult = 1.75
 
 ATT.UBGL = true
 ATT.UBGLAmmo = "smg1_grenade"

@@ -7,6 +7,7 @@ ATT.Icon = Material("hud/arc9_saa/att/Tacpoint.png", "mips smooth")
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SwayMult = 0.925
 ATT.VisualRecoilADSMult = 0.8

@@ -8,6 +8,7 @@ ATT.Icon = Material("hud/arc9_saa/att/leupoldm3a.png", "mips smooth")
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SwayMult = 1.13
 ATT.VisualRecoilADSMult = 0.85
