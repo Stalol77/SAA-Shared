@@ -153,7 +153,7 @@ ATT.SortOrder = 2
 
 ATT.Category = {"saa_12ga", "saa_sg50bmg"}
 ATT.NumOverride = 1
-ATT.DamageMaxMult = 70/8
+ATT.DamageMaxMult = 78/8
 ATT.DamageMinMult = 40/8
 ATT.RangeMaxMult = 400/65
 ATT.ArmorPiercingMult = 3.8
@@ -164,7 +164,8 @@ ATT.RecoilMult = 2
 ATT.ShootVolumeMult = 140/125
 ATT.DistantShootSoundOverride = "saaswat/m590a1/ks23_fire1.wav"
 ATT.MuzzleParticleOverride = "muzzleflash_minimi"
-ATT.ClipSizeMult = 1/2
+ATT.ShellModel = "models/weapons/rifleshell.mdl"
+ATT.ShellScale = 0.9
 ATT.ActivateElements = {"50bmg"}
 ATT.ImpactForce = 8/1
 
@@ -184,6 +185,8 @@ ATT.Category = {"saa_12ga_special"}
 ATT.NumOverride = 14
 ATT.DamageMaxMult = 6/14
 ATT.Override_DamageType = DMG_BURN + DMG_BUCKSHOT + DMG_SHOCK
+ATT.ExplosionDamage = 16
+ATT.ExplosionRadius = 50
 ATT.PhysBulletMuzzleVelocityMult = 90/70
 ATT.PenetrationMult = 0.6
 ATT.MuzzleParticleOverride = "muzzleflash_dragonbreath"
