@@ -13,6 +13,7 @@ ATT.CustomPros = {
 ATT.Category = {"SAA_SVD_DOVETAIL"}
 ATT.MenuCategory = "SAA ARC9 - Optics"
 ATT.Icon = Material("hud/arc9_saa/att/pso1.png", "mips smooth")
+ATT.FoldSights = true
 
 
 ATT.Model = "models/saa/upgrades/a_optic_pso-1.mdl"

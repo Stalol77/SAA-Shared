@@ -21,6 +21,7 @@ ATT.ModelOffset = Vector(0, 0.4, 1.55)
 ATT.ActivePosAdd = Vector(0, 0, -5)
 ATT.VisualRecoilMultSights = 0.8
 ATT.SwayMultSights = 0.85
+ATT.FoldSights = true
 
 
 ATT.Sights = {

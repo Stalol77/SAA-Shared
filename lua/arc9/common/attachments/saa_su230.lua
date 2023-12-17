@@ -12,6 +12,7 @@ ATT.Folder = "SCOPE"
 ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
+ATT.FoldSights = true
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_su230.mdl"
@@ -31,7 +32,8 @@ ATT.Sights = {
         Magnification = 1,
         ExcludeElements = {"su230_topup"},
         IgnoreExtra = true,
-        Disassociate = true
+        Disassociate = true,
+        IsIronSight = true, -- disable if another sight is installed
     },
 }
 

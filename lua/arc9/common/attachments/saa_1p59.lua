@@ -7,6 +7,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
 ATT.MenuCategory = "SAA ARC9 - Optics"
+ATT.FoldSights = true
 
 ATT.Category = {"SAA_AK_DOVETAIL", "optic_dovetail", "SAA_SVD_DOVETAIL"}
 ATT.Icon = Material("hud/arc9_saa/att/1p59.png", "mips smooth")

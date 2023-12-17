@@ -12,6 +12,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "REFLEX"
+ATT.FoldSights = true
 
 ATT.Category = {"SAA_SCOPE_SMALL", "optic_picatinny"}
 

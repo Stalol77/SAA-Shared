@@ -12,6 +12,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SwayMult = 1.13
 ATT.VisualRecoilADSMult = 0.85
+ATT.FoldSights = true
 
 ATT.Category = {"SAA_SCOPE_LARGE", "optic_picatinny"}
 

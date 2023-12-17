@@ -12,6 +12,7 @@ ATT.Model = "models/saa/upgrades/arc9/scope_rakurs.mdl"
 ATT.Folder = "REFLEX"
 
 ATT.Category = {"SAA_SCOPE_XS", "SAA_SCOPE_SMALL", "optic_picatinny"}
+ATT.FoldSights = true
 
 // Allows a custom sight position to be defined
 ATT.Sights = {

@@ -19,9 +19,18 @@ ATT.Sights = {
         Pos = Vector(0, 6, -0.74),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        IgnoreExtra = true
+        IgnoreExtra = true,
+        IsIronSight = true, -- disable if another sight is installed
     },
 }
+
+ATT.DrawFunc = function(swep, model)
+    if swep:GetValue("FoldSights") == true then
+        model:SetBodygroup(0, 1)
+    else
+        model:SetBodygroup(0, 0)
+    end
+end
 
 ATT.SortOrder = 0
 ATT.Category = {"SAA_SCOPE_IRONSIGHT"}
@@ -89,9 +98,18 @@ ATT.Sights = {
         Pos = Vector(-0.05, 6, -1.2),
         Ang = Angle(0, -1.5, 0),
         Magnification = 1,
-        IgnoreExtra = true
+        IgnoreExtra = true,
+        IsIronSight = true, -- disable if another sight is installed
     },
 }
+
+ATT.DrawFunc = function(swep, model)
+    if swep:GetValue("FoldSights") == true then
+        model:SetBodygroup(0, 1)
+    else
+        model:SetBodygroup(0, 0)
+    end
+end
 
 ATT.SortOrder = 0
 ATT.Category = {"SAA_SCOPE_IRONSIGHT"}
@@ -114,15 +132,6 @@ ATT.ModelOffset = Vector(-1.3, 0.1, 0.2)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
-
-ATT.ToggleStats = {
-    ["Deployed"] = {
-        FoldSights = false
-    },
-    ["Closed"] = {
-        FoldSights = true
-    }
-}
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") == true then
@@ -159,7 +168,8 @@ ATT.Sights = {
         Pos = Vector(-0.05, 6, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        IgnoreExtra = true
+        IgnoreExtra = true,
+        IsIronSight = true, -- disable if another sight is installed
     },
 }
 

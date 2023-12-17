@@ -17,6 +17,7 @@ ATT.Scale = 1.3
 ATT.ModelOffset = Vector(-0.6, 1.45, 3.)
 ATT.ExcludeElements = {"nodovetailoptics"}
 ATT.VisualRecoilADSMult = 0.8
+ATT.FoldSights = true
 
 ATT.Sights = {
     {

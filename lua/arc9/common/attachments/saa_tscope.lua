@@ -13,6 +13,7 @@ ATT.SwayMult = 0.925
 ATT.VisualRecoilADSMult = 0.8
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
+ATT.FoldSights = true
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_LRT7X.mdl"
