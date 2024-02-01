@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = [[#000 12 Gauge Buckshot]]
 ATT.CompactName = [[#000]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/000.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 6.2 pellets per ounce.
 ]]
@@ -14,7 +14,7 @@ ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 6
 ATT.ArmorPiercingMult = 1.6
 ATT.DamageMaxMult = 8/6
-ATT.PhysBulletMuzzleVelocityMult = 36/64
+ATT.PhysBulletMuzzleVelocityMult = 59/64
 ATT.PenetrationMult = 1.08
 ATT.ImpactForce = 8/6
 
@@ -24,7 +24,7 @@ ATT = {}
 
 ATT.PrintName = [[#0 12 Gauge Buckshot]]
 ATT.CompactName = [[#0]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/0.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 9 pellets per ounce.
 ]]
@@ -33,7 +33,7 @@ ATT.SortOrder = 2
 ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 9
 ATT.DamageMaxMult = 8/9
-ATT.PhysBulletMuzzleVelocityMult = 81/64
+ATT.PhysBulletMuzzleVelocityMult = 67/64
 ATT.PenetrationMult = 0.8
 ATT.ImpactForce = 8/9
 
@@ -43,7 +43,7 @@ ATT = {}
 
 ATT.PrintName = [[#1 12 Gauge Buckshot]]
 ATT.CompactName = [[#1]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/1.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 11 pellets per ounce.
 ]]
@@ -52,7 +52,7 @@ ATT.SortOrder = 2
 ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 11
 ATT.DamageMaxMult = 8/11
-ATT.PhysBulletMuzzleVelocityMult = 81/64
+ATT.PhysBulletMuzzleVelocityMult = 69/64
 ATT.PenetrationMult = 0.7
 ATT.ImpactForce = 8/11
 
@@ -62,7 +62,7 @@ ATT = {}
 
 ATT.PrintName = [[#2 12 Gauge Buckshot]]
 ATT.CompactName = [[#2]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/2.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 14 pellets per ounce.
 ]]
@@ -71,7 +71,7 @@ ATT.SortOrder = 2
 ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 14
 ATT.DamageMaxMult = 8/14
-ATT.PhysBulletMuzzleVelocityMult = 196/64
+ATT.PhysBulletMuzzleVelocityMult = 73/64
 ATT.PenetrationMult = 0.6
 ATT.ImpactForce = 8/14
 
@@ -81,7 +81,7 @@ ATT = {}
 
 ATT.PrintName = [[#3 12 Gauge Buckshot]]
 ATT.CompactName = [[#3]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/3.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 18 pellets per ounce.
 ]]
@@ -90,7 +90,7 @@ ATT.SortOrder = 2
 ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 18
 ATT.DamageMaxMult = 8/18
-ATT.PhysBulletMuzzleVelocityMult = 196/64
+ATT.PhysBulletMuzzleVelocityMult = 77/64
 ATT.PenetrationMult = 0.4
 ATT.ImpactForce = 8/18
 
@@ -101,7 +101,7 @@ ATT = {}
 
 ATT.PrintName = [[#4 12 Gauge Buckshot]]
 ATT.CompactName = [[#4]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/4.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 21 pellets per ounce.
 ]]
@@ -110,7 +110,7 @@ ATT.SortOrder = 2
 ATT.Category = {"saa_12ga"}
 ATT.NumOverride = 21
 ATT.DamageMaxMult = 8/21
-ATT.PhysBulletMuzzleVelocityMult = 441/64
+ATT.PhysBulletMuzzleVelocityMult = 81/64
 ATT.PenetrationMult = 0.3
 ATT.ImpactForce = 8/21
 
@@ -121,7 +121,7 @@ ATT = {}
 
 ATT.PrintName = [[Lavrov 12 Gauge Sabot Flechette]]
 ATT.CompactName = [[Lavrov Sabot Flechette]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/lavrov.png", "mips smooth")
 ATT.Description = [[
 Experimental 12 Gauge Buckshot Sabot round with a flechette projectile. Designed for maximum velocity and penetration capabilities.
 ]]
@@ -145,7 +145,7 @@ ATT = {}
 
 ATT.PrintName = [[.50 BMG Round]]
 ATT.CompactName = [[.50 BMG]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/50bmg.png", "mips smooth")
 ATT.Description = [[
 Replaces the 12 Gauge Shell with a .50 Round. Unsuited for the Weapon type.
 ]]
@@ -175,7 +175,7 @@ ATT = {}
 
 ATT.PrintName = [[12 Gauge Dragon's Breath]]
 ATT.CompactName = [[Dragon's Breath]]
-ATT.Icon = Material("hud/arc9_saa/icons/54r_ap.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/dragon.png", "mips smooth")
 ATT.Description = [[
 12 Gauge Buckshot round containing 14 pellets per ounce.
 ]]
