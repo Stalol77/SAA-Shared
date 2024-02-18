@@ -3,7 +3,7 @@
 	"$basetexture" 	           "models\weapons\saa\shared\scope_rakurs"
 	"$bumpmap"                 "models\weapons\saa\shared\scope_rakurs_bump"
 	"$phongexponenttexture"     "models\weapons\saa\shared\scope_rakurs_rough"
-	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal2"
 	"$color2"					"[0.35 0.35 0.35]"
 	"$blendTintByBaseAlpha"		"1"
 
@@ -11,10 +11,10 @@
 	"$envmaptint"				"[ .02 .02 .02 ]"
 
 	"$phong"					"1"
-	"$phongboost"				"0.2"
+	"$phongboost"				"1"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
-	"$phongalbedoboost"			"100"
+	"$phongalbedoboost"			"60"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
