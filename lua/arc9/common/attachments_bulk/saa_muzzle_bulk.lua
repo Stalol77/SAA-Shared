@@ -360,6 +360,7 @@ ATT.MuzzleDevice = false
 
 ATT.RecoilUpMult = 1.15
 ATT.RecoilRandomMult = 0.9
+ATT.BarrelLengthAdd = 12
 
 ARC9.LoadAttachment(ATT, "saa_muz_clothsup")
 
