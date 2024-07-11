@@ -393,6 +393,7 @@ ATT.ShootVolumeMult = 95.5/110
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = false
+ATT.BarrelLengthAdd = 10
 
 ATT.RecoilUpMult = 1.12
 ATT.RecoilRandomMult = 0.9
@@ -443,13 +444,13 @@ ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
 ATT.Description = [[Bulky 9mm Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
-ATT.Model = "models/saa/upgrades/a_suppressor_black45s.mdl"
+ATT.Model = "models/saa/upgrades/a_suppressor_sec9mm_ss.mdl"
 
 ATT.Category = {"suppressor","saa_9mm_muz"}
 ATT.Folder = "SUPP"
 
-ATT.Scale = 2
-ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.Scale = 1.9
+ATT.ModelOffset = Vector(0, -0.5, 0)
 ATT.ModelAngleOffset = Angle(0, 270, 0)
 
 ATT.PhysBulletMuzzleVelocityMult = 875/930

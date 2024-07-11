@@ -24,3 +24,6 @@ ATT.Attachments = {
 }
 
 ATT.SwayMultSightsMult = 1.5
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 0, -1)
+end

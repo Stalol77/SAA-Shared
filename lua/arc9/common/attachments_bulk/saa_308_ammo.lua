@@ -122,11 +122,12 @@ ATT.Category = {"saa_308_ammo"}
 ATT.PenetrationMult = (2/3)*(686/840)
 ATT.ArmorPiercingMult = (1/3)*(686/840)
 ATT.RecoilMult = 0.885
-ATT.ShootVolumeMult = 90/130
+ATT.ShootVolumeMult = 89/100
 ATT.DamageMaxMult = 80/88
 ATT.DamageMinMult = (80/88)*(699/840)
 ATT.RicochetChanceMult = 1.4
 ATT.PhysBulletMuzzleVelocityMult = 286/840
+ATT.MalfunctionMeanShotsToFailMult = 550/850
 ATT.RPMMult = 580/600
 
 ARC9.LoadAttachment(ATT, "saa_308_sub")
@@ -146,12 +147,13 @@ ATT.Category = {"saa_308_ammo"}
 ATT.PenetrationMult = (2/3)*(686/840)
 ATT.ArmorPiercingMult = (1/3)*(686/840)
 ATT.RecoilMult = 0.885
-ATT.ShootVolumeMult = 92.5/130
+ATT.ShootVolumeMult = 89/100
 ATT.DamageMaxMult = 80/88
 ATT.DamageMinMult = (80/88)*(699/840)
 ATT.RicochetChanceMult = 1.8
 ATT.PhysBulletMuzzleVelocityMult = 263/840
 ATT.TracerNumOverride = 2
+ATT.MalfunctionMeanShotsToFailMult = 550/850
 ATT.TracerColorOverride = Color(255, 100, 0)
 ATT.RPMMult = 580/600
 
