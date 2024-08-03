@@ -12,6 +12,7 @@ ATT.Folder = "SCOPE"
 ATT.FoldSights = true
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_xleris.mdl"

@@ -14,6 +14,7 @@ ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "REFLEX"
 ATT.FoldSights = true
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.Category = {"SAA_SCOPE_SMALL", "optic_picatinny"}
 

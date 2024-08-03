@@ -11,6 +11,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.SwayMult = 0.925
 ATT.VisualRecoilADSMult = 0.8
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 ATT.FoldSights = true

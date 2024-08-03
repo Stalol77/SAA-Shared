@@ -13,6 +13,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 ATT.FoldSights = true
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_su230.mdl"

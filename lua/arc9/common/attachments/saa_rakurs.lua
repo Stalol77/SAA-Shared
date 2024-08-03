@@ -13,6 +13,7 @@ ATT.Folder = "REFLEX"
 
 ATT.Category = {"SAA_SCOPE_XS", "SAA_SCOPE_SMALL", "optic_picatinny"}
 ATT.FoldSights = true
+ATT.ExcludeElements = {"nooptics"}
 
 // Allows a custom sight position to be defined
 ATT.Sights = {

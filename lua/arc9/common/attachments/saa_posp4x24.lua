@@ -14,6 +14,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 ATT.Category = {"SAA_SVD_DOVETAIL", "SAA_AK_DOVETAIL"}
 
 ATT.Icon = Material("hud/arc9_saa/att/posp.png", "mips smooth")
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.Model = "models/saa/upgrades/arc9/a_optic_posp-4x24m.mdl"
 ATT.Scale = 1.45

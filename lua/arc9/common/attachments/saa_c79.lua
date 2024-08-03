@@ -18,6 +18,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_optic_c79.mdl"
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0.1, 0.15, -0.2)
+ATT.ExcludeElements = {"nooptics"}
 ATT.Scale = 1.2
 ATT.Sights = {
     {

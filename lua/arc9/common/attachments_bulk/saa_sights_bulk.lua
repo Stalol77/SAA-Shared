@@ -223,7 +223,7 @@ ATT.Model = "models/saa/upgrades/arc9/a_ar15_a2_iron.mdl"
 ATT.ModelOffset = Vector(0, 0.1, 0.5)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
-ATT.ActivateElements = {"saa_custom_irons"}
+ATT.ActivateElements = {"saa_custom_irons","nooptics"}
 ATT.Sights = {
     {
         Pos = Vector(-0.05, 6, -0.65),

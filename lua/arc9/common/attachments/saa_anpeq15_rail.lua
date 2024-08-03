@@ -6,6 +6,7 @@ ATT.SortOrder = 0
 ATT.Category = {"saa_rail_tactical"}
 ATT.Model = "models/saa/upgrades/arc9/a_anpeq15_rail.mdl"
 ATT.Folder = "LIGHT"
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.AimDownSightsTimeMult = 1.03
 ATT.SprintToFireTimeMult = 1.03

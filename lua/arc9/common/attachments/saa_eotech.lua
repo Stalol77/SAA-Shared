@@ -20,6 +20,8 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/a_optic_eotech.mdl"
 ATT.ModelOffset = Vector(0.1, 0.15, -0.35)
 ATT.Scale = 1.4
+ATT.ExcludeElements = {"nooptics"}
+
 ATT.Sights = {
     {
         Pos = Vector(0, 6, -1.65),

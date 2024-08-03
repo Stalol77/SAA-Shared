@@ -10,6 +10,7 @@ ATT.MenuCategory = "SAA ARC9 - Optics"
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = "SCOPE"
+ATT.ExcludeElements = {"nooptics"}
 
 ATT.Category = {"SAA_SCOPE_MEDIUM", "optic_picatinny"}
 ATT.FoldSights = true
