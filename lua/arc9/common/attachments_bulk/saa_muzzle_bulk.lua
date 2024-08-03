@@ -297,7 +297,7 @@ ATT = {}
 
 ATT.PrintName = "YHM Resonator K"
 ATT.CompactName = "Res K"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Sleek .308 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -332,7 +332,7 @@ ATT = {}
 
 ATT.PrintName = "Cloth Wrapped Salvo"
 ATT.CompactName = "Salvo"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Bulky 7.62 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -368,7 +368,7 @@ ATT = {}
 
 ATT.PrintName = "Magnek Tacforce"
 ATT.CompactName = "Magnek"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Bulky 7.62 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -404,7 +404,7 @@ ATT = {}
 
 ATT.PrintName = "Magnek Tacforce-Mini"
 ATT.CompactName = "Magnek"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Bulky 5.56 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -440,7 +440,7 @@ ATT = {}
 
 ATT.PrintName = "Magnek Tacforce 9mm"
 ATT.CompactName = "Magnek"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Bulky 9mm Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -475,7 +475,7 @@ ATT = {}
 
 ATT.PrintName = "Osprey Tan 9mm BiColar"
 ATT.CompactName = "Osprey 9mm"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Bulky 9mm Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 
@@ -511,7 +511,7 @@ ATT = {}
 
 ATT.PrintName = "Whiplash K2 Suppressor"
 ATT.CompactName = "Whiplash K2"
-ATT.Icon = Material("entities/arc9_att_muzzle_supp_a.png", "mips smooth")
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
 ATT.Description = [[Sleek 5.56 Suppressor. Somewhat reduces firing sound and affects ballistics accordingly.]]
 ATT.SortOrder = 1
 

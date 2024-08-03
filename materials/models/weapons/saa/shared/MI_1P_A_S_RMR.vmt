@@ -4,16 +4,17 @@
 	"$bumpmap"					"models\weapons\saa\Shared\sandstorm\T_1P_A_S_RMR_N"
 	"$phongexponenttexture"		"models\weapons\saa\Shared\sandstorm\T_1P_A_S_RMR_M"
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal"
-	"$color2"					"[0.25 0.25 0.25]"
+	"$color2"					"[0.1 0.1 0.1]"
 	"$blendTintByBaseAlpha"		"1"
 
 	"$envmap" 					"models\weapons\envmaps\fo4_dith"
 	"$envmapfresnel" 			"0.5"
 	"$envmaptint"				"0.3"
-	"$envmapcoefficient"		"0.1" // Lighting will be multiplied by this value
+	"$envmapcoefficient"		"0.3" // Lighting will be multiplied by this value
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
-	"$phongboost"				"0.3"
+	"$phongboost"				"1"
 	"$phongalbedoboost"			"10"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
