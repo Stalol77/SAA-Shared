@@ -4,7 +4,7 @@
 	"$bumpmap"					"models\weapons\saa\shared\muzzle\Osprey_Suppressor_Osprey_Spr_Normal"
 	"$phongexponenttexture"		"models\weapons\saa\shared\muzzle\Osprey_Suppressor_Osprey_Spr_Metallic"
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
-	"$color2"					"[0.6 0.6 0.6]"
+	"$color2"					"[0.4 0.4 0.4]"
 
 	"$envmap"					"models\weapons\envmaps\fo4_dith"
 //	"$envmaptint"				"[ .5 .5 .5 ]"
@@ -13,6 +13,8 @@
 	"$phongboost"				"50"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
+
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"

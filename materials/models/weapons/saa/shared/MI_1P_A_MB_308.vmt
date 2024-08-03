@@ -9,6 +9,7 @@
 
 	"$envmap" 			"models\weapons\envmaps\metal_generic_005"
 	"$envmaptint"				"[ .06 .06 .06 ]"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
 	"$phongboost"				"5"
@@ -19,7 +20,7 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"5"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.05" // Lighting will be multiplied by this value
+	"$envmapcoefficient"	"0.2" // Lighting will be multiplied by this value
 	"$colorcoefficient"	"0.8" // Lighting will be multiplied by this value
 Proxies
 {

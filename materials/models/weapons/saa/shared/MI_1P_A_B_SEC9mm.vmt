@@ -4,24 +4,25 @@
 	"$bumpmap"					"models\weapons\saa\shared\SANDSTORM\T_1P_A_SEC9MM_NM"
 	"$phongexponenttexture"		"models\weapons\saa\shared\SANDSTORM\T_1P_A_SEC9MM_M"
 	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
-	"$color2"					"[0.8 0.8 0.8]"
-	"$blendTintByBaseAlpha"		"0"
+	"$color2"					"[0.2 0.2 0.2]"
+	"$blendTintByBaseAlpha"		"1"
 
-	"$envmap" 			"models\weapons\envmaps\metal_generic_005"
+	"$envmap" 			"models\weapons\envmaps\fo4_dith"
 	"$envmaptint"				"[ .06 .06 .06 ]"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
-	"$phongboost"				"1"
-	"$phongalbedoboost"			"10"
-	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongboost"				"5"
+	"$phongalbedoboost"			"20"
 	"$phongalbedotint" 			"1"
+
+	"$phongfresnelranges"		"[0.1 0.2 02]"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			"1.5"
+	"$rimlightboost"			"0.2"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.05" // Lighting will be multiplied by this value
-	"$colorcoefficient"	"0.8" // Lighting will be multiplied by this value
+	"$envmapcoefficient"	"0.7" // Lighting will be multiplied by this value
 Proxies
 {
     SAA_CubemapTintMult
@@ -31,5 +32,3 @@ Proxies
     }
 }
 }
-//Material setup by ShadowRUN 幸運な. 
-//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.

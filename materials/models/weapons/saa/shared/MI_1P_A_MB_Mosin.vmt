@@ -9,7 +9,8 @@
 
 	"$envmap" 			"models\weapons\envmaps\metal_generic_005"
 	"$envmaptint"				"[ .06 .06 .06 ]"
-
+	"$normalmapalphaenvmapmask"	"1"
+	
 	"$phong"					"1"
 	"$phongboost"				"5"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"

@@ -4,10 +4,12 @@
 	"$bumpmap"					"models\weapons\saa\shared\muzzle\Cyan_Normal_DirectX"
 	"$phongexponenttexture"		"models\weapons\saa\shared\muzzle\Cyan_Metallic"
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
-	"$color2"					"[0.6 0.6 0.6]"
+	"$color2"					"[0.1 0. 0.1]"
+	"$blendtintbybasealpha"		"1"
 
 	"$envmap"					"models\weapons\envmaps\fo4_dith"
-//	"$envmaptint"				"[ .5 .5 .5 ]"
+	"$envmaptint"				"[ .5 .5 .5 ]"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
 	"$phongboost"				"50"
@@ -16,9 +18,9 @@
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			"20"
+	"$rimlightboost"			"5"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.3" // Lighting will be multiplied by this value
+	"$envmapcoefficient"	"3" // Lighting will be multiplied by this value
 
 
 	"$detailblendmode" "4"
