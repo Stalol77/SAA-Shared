@@ -377,7 +377,7 @@ ATT.Model = "models/saa/upgrades/a_suppressor_black45s.mdl"
 ATT.Category = {"suppressor","saa_308_muz", "saa_54r_muz"}
 ATT.Folder = "SUPP"
 
-ATT.Scale = 2.7
+ATT.Scale = 2.2
 ATT.ModelOffset = Vector(0, -0.7, 0)
 ATT.ModelAngleOffset = Angle(0, 270, 0)
 
@@ -399,6 +399,42 @@ ATT.RecoilUpMult = 1.12
 ATT.RecoilRandomMult = 0.9
 
 ARC9.LoadAttachment(ATT, "saa_muz_magnek")
+
+ATT = {}
+
+ATT.PrintName = "12 Gauge Shotgun Suppressor"
+ATT.CompactName = "12 GA"
+ATT.Icon = Material("hud/arc9_saa/icons/supp_generic.png", "mips smooth")
+ATT.Description = [[Bulky 7.62 Suppressor. Greatly reduces firing sound and affects ballistics accordingly.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/saa/upgrades/a_suppressor_salvo12g.mdl"
+
+ATT.Category = {"suppressor","saa_12ga_muz"}
+ATT.Folder = "SUPP"
+
+ATT.Scale = 1.3
+ATT.ModelOffset = Vector(0, -0.7, 0)
+ATT.ModelAngleOffset = Angle(0, 270, 0)
+
+ATT.PhysBulletMuzzleVelocityMult = 875/930
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 0.9
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+
+ATT.Silencer = true
+ATT.ShootVolumeMult = 95.5/110
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = false
+ATT.BarrelLengthAdd = 30
+
+ATT.RecoilUpMult = 1.12
+ATT.RecoilRandomMult = 0.9
+
+ARC9.LoadAttachment(ATT, "saa_muz_12gge")
 
 ATT = {}
 
