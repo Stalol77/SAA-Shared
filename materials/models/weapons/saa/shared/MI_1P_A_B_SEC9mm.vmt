@@ -3,17 +3,19 @@
 	"$basetexture"				"models\weapons\saa\shared\SANDSTORM\T_1P_A_SEC9MM_BC"
 	"$bumpmap"					"models\weapons\saa\shared\SANDSTORM\T_1P_A_SEC9MM_NM"
 	"$phongexponenttexture"		"models\weapons\saa\shared\SANDSTORM\T_1P_A_SEC9MM_M"
-	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal"
+	"$phongwarptexture"			"models\weapons\saa\Shared\lightwarps\phongwarp_metal2"
 	"$color2"					"[0.2 0.2 0.2]"
 	"$blendTintByBaseAlpha"		"1"
 
-	"$envmap" 			"models\weapons\envmaps\fo4_dith"
+	"$lightwarptexture"			"models\weapons\saa\Shared\lightwarps\lightwarp_steel"
+
+	"$envmap" 			"models\weapons\envmaps\hdri_parking"
 	"$envmaptint"				"[ .06 .06 .06 ]"
 	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
-	"$phongboost"				"5"
-	"$phongalbedoboost"			"20"
+	"$phongboost"				"2"
+	"$phongalbedoboost"			"40"
 	"$phongalbedotint" 			"1"
 
 	"$phongfresnelranges"		"[0.1 0.2 02]"
@@ -22,7 +24,7 @@
 	"$rimlightexponent"			"33"
 	"$rimlightboost"			"0.2"
 	"$rimmask"					"1"
-	"$envmapcoefficient"	"0.7" // Lighting will be multiplied by this value
+	"$envmapcoefficient"	"0.3" // Lighting will be multiplied by this value
 Proxies
 {
     SAA_CubemapTintMult

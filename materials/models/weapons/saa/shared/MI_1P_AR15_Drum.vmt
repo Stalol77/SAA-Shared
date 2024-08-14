@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\weapons\saa\shared\sandstorm\T_1P_M_AR15_Drum_BC"
+	"$bumpmap"					"models\weapons\saa\shared\sandstorm\T_1P_M_AR15_Drum_N"
+	"$phongexponenttexture"		"models\weapons\saa\shared\sandstorm\T_1P_M_AR15_Drum_M"
+	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
+	"$color2"					"[0.1 0.1 0.1]"
+	"$blendTintByBaseAlpha"		"1"
+
+	"$envmap"					"models\weapons\envmaps\fo4_dith"
+	"$envmaptint"				"[ .13 .13 .13 ]"
+	"$envmapcoefficient"		"0.3"
+
+	"$phong"					"1"
+	"$phongboost"				"1"
+	"$phongalbedoboost"			"30"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint" 			"1"
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"33"
+	"$rimlightboost"			"5"
+	"$rimmask"					"1"
+Proxies
+	{
+    SAA_CubemapTintMult
+		{
+        multiplier	$envmapcoefficient // Use our value for default envmap tint
+        resultvar	$envmaptint // Write final output to $envmaptint
+		}
+	}
+}
+//Material setup by ShadowRUN 幸運な. 
+//You are NOT allowed to edit\modify\redistribute these materials without my explicit permission.
+
+
