@@ -49,7 +49,7 @@ ATT.Description = [[Dust cover produced for AKM rifles. Features the classic rib
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_mbus_frontpost.mdl"
-ATT.ModelOffset = Vector(-1.3, 0.1, 0.4)
+ATT.ModelOffset = Vector(-0.8, 0.1, 0.4)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
@@ -89,7 +89,7 @@ ATT.Description = [[Dust cover produced for AKM rifles. Features the classic rib
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_flipup_ironsight_rear.mdl"
-ATT.ModelOffset = Vector(-1.3, 0.2, 0.4)
+ATT.ModelOffset = Vector(-1.3, 0.2, 0.35)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_irons"}
@@ -128,7 +128,7 @@ ATT.Description = [[Dust cover produced for AKM rifles. Features the classic rib
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_flipup_ironsight_front.mdl"
-ATT.ModelOffset = Vector(-1.3, 0.2, 0.4)
+ATT.ModelOffset = Vector(-1.3, 0.2, 0.3)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
@@ -189,7 +189,7 @@ ATT.Description = [[Dust cover produced for AKM rifles. Features the classic rib
 
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.Model = "models/saa/upgrades/arc9/a_kac_k18_frontpost.mdl"
-ATT.ModelOffset = Vector(-1.3, 0.1, 0.2)
+ATT.ModelOffset = Vector(-0.3, 0.1, 0.2)
 ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
@@ -229,7 +229,6 @@ ATT.Sights = {
         Pos = Vector(-0.05, 6, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        IgnoreExtra = true,
         IsIronSight = true, -- disable if another sight is installed
     },
 }

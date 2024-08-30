@@ -122,7 +122,7 @@ function EFFECT:Init(data)
 		if (particle) then
 			particle:SetVelocity(VectorRand():GetNormalized() * math.Rand(150, 300))
 
-			particle:SetDieTime(0.1)
+			particle:SetDieTime(0.02)
 			local airgrav = math.random(0, 150)
 			local airdisp = math.random(10, 30)
 			particle:SetStartAlpha(math.Rand(50, 100))
@@ -145,7 +145,7 @@ function EFFECT:Init(data)
 		if (particle) then
 			particle:SetVelocity(VectorRand():GetNormalized() * math.Rand(150, 300))
 
-			particle:SetDieTime(0.1)
+			particle:SetDieTime(0.02)
 			local airgrav = math.random(0, 150)
 			local airdisp = math.random(10, 30)
 			particle:SetStartAlpha(math.Rand(50, 255))
@@ -168,7 +168,7 @@ function EFFECT:Init(data)
 		if (particle) then
 			particle:SetVelocity(VectorRand():GetNormalized() * math.Rand(150, 300))
 
-			particle:SetDieTime(0.05)
+			particle:SetDieTime(0.02)
 			local airgrav = math.random(0, 150)
 			local airdisp = math.random(10, 30)
 			particle:SetStartAlpha(math.Rand(25, 75))
