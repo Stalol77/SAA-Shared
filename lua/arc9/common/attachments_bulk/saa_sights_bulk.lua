@@ -133,6 +133,14 @@ ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
 
+ATT.DrawFunc = function(swep, model)
+    if swep:GetValue("FoldSights") == true then
+        model:SetBodygroup(0, 1)
+    else
+        model:SetBodygroup(0, 0)
+    end
+end
+
 ATT.SortOrder = 0
 ATT.Category = {"SAA_SCOPE_FRONTPOST"}
 
