@@ -294,10 +294,10 @@ ATT.Category = {"SAA_FOREGRIP"}
 ATT.VisualRecoilSideMult = 0.65
 ATT.VisualRecoilMultHipFire = 0.5
 ATT.RecoilMultHipFire = 0.84
-ATT.VisualRecoilMultSights = 1.44
+ATT.VisualRecoilMultSights = 1.25
 ATT.RecoilMultSights = 1.09
 ATT.SwayMult = 0.85/0.56
-ATT.SwayMultSights = 1.97/0.56
+ATT.SwayMultSights = 1.35/0.56
 
 ATT.AimDownSightsTimeMult = 0.38/0.33
 ATT.SprintToFireTimeMult = 0.66/0.45

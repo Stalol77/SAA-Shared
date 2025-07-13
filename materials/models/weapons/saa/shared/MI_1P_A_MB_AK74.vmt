@@ -12,13 +12,14 @@
 	"$normalmapalphaenvmapmask"	"1"
 	
 	"$phong"					"1"
-	"$phongboost"				"5"
+	"$phongboost"				"2"
+	"$phongalbedoboost"			"20"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"33"
-	"$rimlightboost"			"5"
+	"$rimlightboost"			"1"
 	"$rimmask"					"1"
 	"$envmapcoefficient"	"0.15" // Lighting will be multiplied by this value
 	"$colorcoefficient"	"0.8" // Lighting will be multiplied by this value

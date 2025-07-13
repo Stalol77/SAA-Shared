@@ -12,7 +12,8 @@
 	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
-	"$phongboost"				"5"
+	"$phongboost"				"3"
+	"$phongalbedoboost"			"15"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 

@@ -4,12 +4,12 @@
 	"$bumpmap"					"models\weapons\saa\shared\ar15_30_n"
 	"$phongexponenttexture"		"models\weapons\saa\shared\ar15_30_e"
 	"$phongwarptexture"			"models\weapons\saa\shared\lightwarps\phongwarp_metal2"
-	"$color2"					"[0.35 0.35 0.35]"
+	"$color2"					"[0.15 0.15 0.15]"
 	"$blendTintByBaseAlpha"		"1"
 
 	"$phong"					"1"
-	"$phongboost"				"2"
-	"$phongalbedoboost"			"5"
+	"$phongboost"				"17"
+	"$phongalbedoboost"			"1.5"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint" 			"1"
 
@@ -19,8 +19,9 @@
 	"$rimmask"					"1"
 	"$envmap" 			"models\weapons\envmaps\fo4_dith"
 	"$normalmapalphaenvmapmask" 	"1"
+	"$envmapfresnel"		".7"
 	"$envmaptint"			"[0.5 0.5 0.5]"
-	"$envmapcoefficient"	"0.4" // Lighting will be multiplied by this value
+	"$envmapcoefficient"	"2" // Lighting will be multiplied by this value
 Proxies
 {
     SAA_CubemapTintMult

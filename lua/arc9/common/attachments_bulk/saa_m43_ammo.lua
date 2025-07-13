@@ -166,3 +166,48 @@ ARC9.LoadAttachment(ATT, "saa_m43_us")
 
 -- end here 
 
+-- start here
+
+ATT = {}
+
+ATT.PrintName = ".366 TKM Conversion"
+ATT.CompactName = ".366 TKM"
+ATT.Description = [[Variant of the M43 Caliber designed for Semi-Automatic and Civilian use.]]
+ATT.Icon = Material("hud/arc9_saa/icons/m43_sub.png", "mips smooth")
+
+
+ATT.SortOrder = 4
+ATT.Category = "saa_ak_ammo"
+
+ATT.ArmorPiercingMult = 0.5
+ATT.DamageMaxMult = 46/39
+ATT.DamageMinMult = 32/35
+ATT.PhysBulletMuzzleVelocityMult = 600/715
+ATT.ViewRecoilUpMult = 1.7
+
+ATT.LayerSound = {
+	"shared/base/mw19/tails/custom/366tkm_tail-01.wav",
+	"shared/base/mw19/tails/custom/366tkm_tail-02.wav",
+	"shared/base/mw19/tails/custom/366tkm_tail-03.wav",
+	"shared/base/mw19/tails/custom/366tkm_tail-04.wav",
+	"shared/base/mw19/tails/custom/366tkm_tail-05.wav",
+	"shared/base/mw19/tails/custom/366tkm_tail-06.wav",
+
+}
+
+ATT.ActivateElements = {"366tkm"}
+
+ATT.Firemodes = {
+	{
+		Mode = 1,
+	}
+}
+
+
+ATT.RecoilMult = 0.6
+ATT.RicochetChanceMult = 0.3 
+
+ARC9.LoadAttachment(ATT, "saa_m43_us")
+
+-- end here 
+

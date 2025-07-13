@@ -54,15 +54,6 @@ ATT.Scale = 1
 ATT.Folder = "IRONSIGHTS"
 ATT.ActivateElements = {"saa_custom_frontpost"}
 
-ATT.ToggleStats = {
-    ["Deployed"] = {
-        FoldSights = false
-    },
-    ["Closed"] = {
-        FoldSights = true
-    }
-}
-
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
         model:SetBodygroup(0, 1)

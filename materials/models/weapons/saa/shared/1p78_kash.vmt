@@ -10,6 +10,7 @@
 	"$envmap" 					"models\weapons\envmaps\fo4_dith"
 	"$envmaptint"				"0.13"
 	"$envmapcoefficient"		"0.5" // Lighting will be multiplied by this value
+	"$envmapfresnel"			"0.7"
 
 	"$phong"					"1"
 	"$phongboost"				"30"

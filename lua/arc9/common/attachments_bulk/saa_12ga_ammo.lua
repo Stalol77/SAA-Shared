@@ -136,7 +136,6 @@ ATT.ArmorPiercingMult = 3.5
 ATT.PhysBulletMuzzleVelocityMult = 612/350
 ATT.PenetrationMult = 6.5
 ATT.SpreadMult = 0.95
-ATT.ImpactEffectOverride = "TeslaZap"
 ATT.ImpactForce = 8/2
 
 ARC9.LoadAttachment(ATT, "saa_12ga_lavrov")
