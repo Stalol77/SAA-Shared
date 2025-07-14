@@ -12,6 +12,14 @@ ATT.Model = "models/saa/upgrades/arc9/ubgl_gp25.mdl"
 ATT.Scale = 1
 ATT.LHIK = true
 ATT.RHIK = false
+ATT.RHIK_Priority = 0
+ATT.IKGunMotionQCA = 0 -- Make the gun move while in IK animation
+
+ATT.IKGunMotionMult = 1
+
+ATT.IKCameraMotionQCA = 1
+ATT.IKCameraMotionQCA_Mult = 1
+ATT.IKCameraMotionOffsetAngle = Angle(0, 0, 0)
 ATT.Sights = {
     {
         Pos = Vector(0., 5.5, -1.32),
